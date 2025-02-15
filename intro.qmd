@@ -1,0 +1,41 @@
+# Introduction {#sec-intro .unnumbered}
+
+
+High-Performance Liquid Chromatography (HPLC) is the workhorse of modern labs, separating mixtures into their individual components with precision. But for many, it feels like a "black box"—mysterious pumps, cryptic peaks, and intimidating jargon. This book flips that narrative.  
+
+### **1. What You Will Learn**  
+You’ll master the **essentials**:  
+- **Core Concepts**: How HPLC works, explained through real-world comparisons (e.g., “columns are like filters for molecules”).  
+- **Key Components**: The roles of pumps, injectors, columns, and detectors—simplified.  
+- **Practical Skills**: From preparing samples to reading chromatograms.  
+- **Troubleshooting Basics**: Fixing leaks, resolving peak issues, and avoiding common pitfalls.  
+
+### **2. How This Book Is Organized**  
+We follow a **lab-to-logic** approach:  
+
+1. **Components First**: Meet the “cast” of an HPLC system.  
+2. **Theory Simplified**: Interactions between molecules and phases, without equations.  
+3. **Hands-On Applications**: Method development for drug analysis, food testing, and environmental monitoring.  
+4. **Problem-Solving**: A troubleshooting flowchart for noisy baselines, ghost peaks, and more.  
+
+### **3. What You Won’t Learn**  
+This book intentionally avoids:  
+- **Advanced Math**: No van Deemter equations or kinetic plots.  
+- **Instrument Engineering**: We focus on using HPLC, not building it.  
+- **Niche Techniques**: Topics like UPLC or 2D-LC are beyond our scope.  
+
+### **4. Prerequisites**  
+Bring only your **curiosity**. No prior chemistry degree or lab experience is needed. Whether you’re:  
+- A student analyzing caffeine in coffee for a project.  
+- A technician running quality checks on painkillers.  
+- A researcher transitioning to HPLC from other techniques.  
+
+This book meets you where you are.  
+
+### **Why This Approach Works**  
+Imagine learning to drive a car without memorizing engine mechanics. Similarly, we prioritize **practical understanding**:  
+- **Visual Guides**: Cartoons of “molecules racing through columns.”  
+- **Case Studies**: How a misadjusted pH destroyed a separation (and how to avoid it).  
+- **Lab Myths Busted**: Why “more pressure” isn’t always better.  
+
+By the end, you’ll confidently operate an HPLC system, interpret results, and troubleshoot like a pro. Let’s begin!  

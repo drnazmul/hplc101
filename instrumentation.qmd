@@ -1,0 +1,8 @@
+# Instrumentation Deep Dive {#sec-instrumentation .unnumbered}
+*Detectors and Column Chemistry – The Eyes and Heart of the System*  
+
+---
+
+An HPLC system is like a well-coordinated team: the pump delivers the mobile phase, the column separates compounds, and the **detector** acts as the “eyes” that see and measure what’s eluting. This chapter explores how detectors and column chemistry shape your analysis, with real-world examples to guide your choices.  
+
+---

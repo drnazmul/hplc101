@@ -1,0 +1,39 @@
+# What is Chromatography?
+   
+## Basic principles: 
+
+Chromatography is a powerful technique used to separate and analyze mixtures. Imagine you’re using a coffee filter: water (the *mobile phase*) flows through coffee grounds (the *stationary phase*), dissolving compounds to create your brew. While this isn’t chromatography, it shares a key idea: **different components move at different speeds** based on their interactions with the mobile and stationary phases.  
+
+In a classic example, paper chromatography separates ink into its colored components. A dot of ink is placed on paper (stationary phase), and as a solvent (mobile phase, like water or alcohol) travels up the paper, it carries the ink’s components. Pigments with weaker attraction to the paper move faster, creating distinct bands. This is the essence of chromatography: **separation by differential affinity**.  
+
+## mobile phase, stationary phase, separation mechanism.  
+
+- **Mobile Phase**: A fluid (liquid or gas) that carries the sample through the system.  
+- **Stationary Phase**: A material (e.g., silica gel, polymer beads) that stays fixed. Components in the mixture interact with it, slowing their movement.  
+- **Separation Mechanism**: Components “compete” to stick to the stationary phase or dissolve in the mobile phase. Those with stronger attraction to the stationary phase lag behind, leading to separation.  
+
+
+ ***A Brief History and Evolution to HPLC***  
+
+Chromatography began in 1903, when Russian botanist **Mikhail Tsvet** separated plant pigments using a glass column packed with calcium carbonate (stationary phase) and a solvent (mobile phase). He coined the term *chromatography* (“color writing”) as colorful bands of chlorophyll and carotenoids formed.  
+
+Over decades, scientists refined this concept:  
+- **1940s–1950s**: Paper and thin-layer chromatography (TLC) emerged, enabling simpler separations.  
+- **1960s**: The need for faster, more efficient methods led to **High Performance Liquid Chromatography (HPLC)**. Advances in pumps (to push mobile phase at high pressure) and columns packed with tiny, uniform particles (3–5 µm) dramatically improved speed and precision.  
+
+**Why HPLC?**  
+Traditional column chromatography was slow and manual. HPLC’s high-pressure pumps forced the mobile phase through tightly packed stationary phases, enabling:  
+- Faster separations (minutes vs. hours).  
+- Sharper peaks and better resolution.  
+- Sensitive detectors (e.g., UV-Vis) to quantify tiny amounts of compounds.  
+
+---
+
+***Practical Example: HPLC in Action***  
+Imagine analyzing a painkiller tablet. Crush it, dissolve it, and inject it into an HPLC system. The mobile phase (e.g., water and methanol) carries the sample through a C18 column (stationary phase). Components like caffeine and aspirin interact differently with the column:  
+- **Aspirin** (more polar) interacts weakly with the non-polar C18 phase—it elutes quickly.  
+- **Caffeine** (less polar) sticks longer to the column, eluting later.  
+
+The detector generates a *chromatogram* showing peaks for each component. By measuring peak areas, scientists confirm the tablet’s dosage and purity.  
+
+---

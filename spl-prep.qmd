@@ -1,0 +1,71 @@
+# Sample Preparation
+  
+Even the best HPLC method fails with poor sample prep. Key techniques:  
+
+## **Filtration**  
+- **What**: Remove particles with a 0.45 µm or 0.22 µm syringe filter.  
+- **Why**: Particles clog columns and damage pumps.  
+- **Example**: Soil extracts for pesticide analysis *must* be filtered to avoid column blockage.  
+
+---
+
+## **Dilution**  
+- **What**: Reduce sample concentration to avoid overloading the column.  
+- **Why**: Overloaded peaks become broad or split.  
+- **Example**: A highly concentrated **energy drink** (10x caffeine) diluted 1:10 with water.  
+
+---
+
+## **Solid-Phase Extraction (SPE)**  
+- **What**: Use a cartridge to purify or concentrate the sample.  
+- **Steps**:  
+  1. **Condition**: Wash cartridge with solvent.  
+  2. **Load**: Pass sample through.  
+  3. **Elute**: Collect purified compound with strong solvent.  
+- **Example**: Extracting **antibiotics** from milk using C18 SPE cartridges.  
+
+---
+
+## **Derivatization**  
+- **What**: Chemically modify compounds to make them detectable.  
+- **Why**: Some compounds (e.g., sugars, fatty acids) lack UV absorbance.  
+- **Example**: Adding a fluorescent tag to **amino acids** for detection.  
+
+---
+
+## **Real-World Method Development Walkthrough**  
+**Goal**: Analyze **paracetamol** (painkiller) and its degradation product in expired tablets.  
+
+1. **Column Selection**: C18 (paracetamol is moderately polar).  
+2. **Mobile Phase**:  
+   - Start with 30% methanol, 70% water (pH 3.0 with acetic acid).  
+   - Adjust to 35% methanol for better resolution.  
+3. **Sample Prep**:  
+   - Crush tablet → dissolve in methanol → filter → dilute 1:5.  
+4. **Detection**: UV at 243 nm (paracetamol’s absorbance maximum).  
+
+**Result**:  
+- Paracetamol elutes at 4.2 min; degradation product at 5.8 min (resolution R = 2.0).  
+
+---
+
+## **Common Pitfalls & Fixes**  
+| Issue                | Cause                          | Solution                          |  
+|-----------------------|--------------------------------|-----------------------------------|  
+| **Peak tailing**      | Column degradation            | Replace column                    |  
+| **No peaks**          | Wrong detector wavelength     | Check compound’s UV absorbance   |  
+| **High pressure**     | Blocked inlet filter           | Replace filter or clean column   |  
+
+---
+
+## **Key Takeaways**  
+1. **Start simple**: Use a C18 column and isocratic elution for most methods.  
+2. **Adjust one variable at a time** (e.g., pH, organic %) to troubleshoot.  
+3. **Sample prep matters**: A clean sample = reliable results.  
+
+---  
+By mastering method development, you’ll turn HPLC from a black box into a precise tool. Whether testing a new drug or ensuring your morning coffee’s caffeine content, these principles ensure accuracy and confidence in your results. 🔍⚗️
+
+
+
+

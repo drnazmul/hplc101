@@ -1,0 +1,20 @@
+# Introduction {#sec-intro-chrom .unnumbered}
+
+Imagine you’re trying to separate a mixture of colored candies into individual hues. You could sort them by hand, but what if the candies are too similar in color? This is where **chromatography**—a powerful scientific tool—comes into play. At its heart, chromatography is like a molecular sorting machine. It helps scientists separate, identify, and analyze complex mixtures, from the caffeine in your coffee to life-saving medicines in a pill.  
+
+Chromatography works on a simple principle: different components in a mixture travel at different speeds when passed through a system. Think of it as a race where molecules "compete" to move through a medium. Some cling tightly to the material they pass through (the **stationary phase**), while others zip ahead with the fluid carrying them (the **mobile phase**). The result? A clean separation of components, like splitting sunlight into a rainbow of colors.  
+
+This technique isn’t just for scientists in lab coats. It touches nearly every aspect of modern life:  
+- Ensuring the safety of medicines by checking for impurities.  
+- Testing water quality to detect pollutants.  
+- Analyzing food flavors and fragrances.  
+- Solving crimes by identifying substances in forensic investigations.  
+
+Whether you’re a student, a lab technician, or simply curious about how science solves real-world problems, this chapter will guide you through the basics of chromatography, demystify its principles, and show why HPLC is a tool "for all." Let’s dive in!  
+
+---
+
+**Key Takeaway**:  
+Chromatography is the science of separation, and HPLC is its high-tech superhero—solving mysteries in mixtures, one molecule at a time.
+
+

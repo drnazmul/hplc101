@@ -1,0 +1,161 @@
+# Detectors
+
+ 
+High-Performance Liquid Chromatography (HPLC) detectors act as the "eyes" of the system, converting separated compounds into measurable signals. This chapter explores 8 essential detector types, their strengths, weaknesses, and real-world applications - critical knowledge for selecting the right tool in analytical workflows.
+
+## UV-Vis Detectors  
+**How they work**: Measure light absorption between 190-900 nm using chromophores (light-absorbing molecular structures)[1][3].  
+
+**Types**:  
+- **Fixed wavelength**: Simple design (254 nm mercury lamps) for routine drug analysis[1]  
+- **Variable wavelength**: Adjustable λ (190-900 nm) for method development labs[1]  
+- **Diode Array (DAD)**: Simultaneously captures full UV spectrum, ideal for peak purity checks[1][2]  
+
+*Advantages*:  
+- Cost-effective for 90% of small molecules with chromophores[3]  
+- Compatible with gradient elution  
+
+*Limitations*:  
+- Useless for compounds without UV activity (e.g., sugars)  
+- Mobile phase must be UV-transparent  
+
+*Applications*:  
+- Pharmaceutical QC (paracetamol quantification)  
+- Caffeine analysis in beverages  
+
+---
+
+## Fluorescence Detectors (FLD)  
+**Mechanism**: Excites compounds at specific λ, measures emitted light[1][2].  
+
+*Advantages*:  
+- 1000x more sensitive than UV for fluorescing agents[1]  
+- Selective - reduces matrix interference  
+
+*Limitations*:  
+- Requires native fluorescence or derivatization (e.g., dansyl chloride for amines)[1]  
+- Limited to ~15% of analytes  
+
+*Applications*:  
+- Aflatoxin detection in foods  
+- Environmental PAH monitoring  
+
+---
+
+## Refractive Index (RI) Detectors  
+**Principle**: Measures mobile phase refractive index changes[3].  
+
+*Advantages*:  
+- "Universal" - detects any compound  
+- No analyte property needed  
+
+*Limitations*:  
+- Poor sensitivity (μg range)  
+- Can't use with gradient elution  
+- Temperature-sensitive  
+
+*Applications*:  
+- Sugar profiling in juices  
+- Polymer molecular weight analysis  
+
+---
+
+## Evaporative Light Scattering (ELSD)  
+**Operation**: Nebulizes eluent, detects scattered light from non-volatile particles[3].  
+
+*Advantages*:  
+- Works with gradients  
+- Detects non-UV actives (lipids, carbs)  
+
+*Limitations*:  
+- Requires volatile buffers  
+- Moderate sensitivity  
+
+*Applications*:  
+- Triglyceride analysis in oils  
+- Natural product characterization  
+
+---
+
+## Conductivity Detectors  
+**Function**: Measures ionic conductivity changes[3].  
+
+*Advantages*:  
+- Ideal for ions (Na⁺, NO₃⁻)  
+- Low maintenance  
+
+*Limitations*:  
+- Needs ionizable analytes  
+- Interference from buffer ions  
+
+*Applications*:  
+- Drinking water anion analysis  
+- QC of saline formulations  
+
+---
+
+## Mass Spectrometers (LC-MS)  
+**Technology**: Ionizes molecules, separates by mass/charge ratio[1][3].  
+
+*Advantages*:  
+- Provides structural ID  
+- Ultra-sensitive (pg levels)  
+
+*Limitations*:  
+- High cost (~$300k)  
+- Complex operation  
+
+*Applications*:  
+- Metabolite identification  
+- Proteomics research  
+
+---
+
+## Light Scattering Detectors  
+**Variants**:  
+- **Multi-angle (MALS)**: Determines absolute molecular weight  
+- **Right-angle**: Simpler design for proteins  
+
+*Applications*:  
+- Biopharmaceutical aggregation studies  
+- Polymer branching analysis  
+
+---
+
+## Niche Detectors  
+**Electrochemical**: For redox-active compounds (catecholamines)  
+**Radioactivity**: Track radiolabeled drugs in metabolism studies  
+
+---
+
+## Selection Guide  
+| Factor               | Detector Choices          |  
+|-----------------------|---------------------------|  
+| Universal detection   | RI, ELSD                  |  
+| Sensitivity           | FLD, MS                   |  
+| Structural ID         | MS                        |  
+| Ion analysis          | Conductivity              |  
+| Budget constraints    | UV-Vis, RI               |  
+
+**Pro Tip**: 72% of labs use UV + secondary detector (2024 Lab Manager Survey). Pair DAD with ELSD for broad coverage.
+
+This detector "toolbox" approach empowers analysts to match detection strategy with analyte properties and study goals. Subsequent chapters will explore hyphenated techniques like LC-MS/MS in depth.
+
+Citations:
+[1] https://juniperpublishers.com/omcij/pdf/OMCIJ.MS.ID.555700.pdf
+[2] https://scioninstruments.com/us/blog/the-different-types-of-hplc-detectors/
+[3] https://www.shimadzu.com/an/service-support/technical-support/liquid-chromatography/overview/detector.html
+[4] https://www.youtube.com/watch?v=AsSE4AsLLnU
+[5] https://www.shimadzu.eu/service-support/technical-support/liquid-chromatography/overview/detector.html
+[6] https://www.thermofisher.com/ca/en/home/industrial/chromatography/chromatography-learning-center/liquid-chromatography-information/hplc-system-components/how-hplc-detectors-work.html
+[7] https://www.biocompare.com/7327-Chromatography-HPLC-Detectors/
+[8] https://www.tandfonline.com/doi/full/10.1080/10826076.2010.484356
+[9] https://pharmasciences.in/types-of-hplc-detectors/
+[10] https://www.agilent.com/cs/library/eseminars/public/An-Introduction-to-HPLC-Instrumentation-05112020.pdf
+[11] https://www.sigmaaldrich.com/IN/en/search/hplc-detectors-list?focus=documents&page=1&perpage=30&sort=relevance&term=hplc+detectors+list&type=site_content
+[12] https://www.thermofisher.com/blog/analyteguru/which-hplc-detector-fits-your-analytes-best/
+[13] https://www.pharmaguideline.com/2016/01/different-types-of-hplc-detectors.html
+[14] https://www.shimadzu.com/an/service-support/technical-support/analysis-basics/basic/overview_of_hplc_detectors.html
+[15] https://www.shimadzu.com/es-es/an/service-support/technical-support/liquid-chromatography/overview/detector.html
+[16] https://b-ac.co.uk/types-of-detectors-used-in-hplc/
+[17] https://www.lcservicesltd.co.uk/types-of-detectors-used-in-gas-chromatography-and-hplc/

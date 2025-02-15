@@ -1,0 +1,63 @@
+# Separation Modes
+
+## **Reversed-Phase HPLC (RP-HPLC)**  
+- **How It Works**:  
+  - **Stationary Phase**: Non-polar (e.g., C18-coated silica).  
+  - **Mobile Phase**: Polar (water mixed with organic solvents like methanol or acetonitrile).  
+  - **Separation Principle**: Polar compounds elute first; non-polar compounds stick longer.  
+- **Example**:  
+  - Separating **caffeine** (non-polar) from **vitamin C** (polar) in an energy drink.  
+- **When to Use**:  
+  - For most organic, non-polar to moderately polar compounds (80% of HPLC analyses!).  
+  - Applications: Pharmaceuticals, food additives, environmental pollutants.  
+
+---
+
+## **Normal-Phase HPLC (NP-HPLC)**  
+- **How It Works**:  
+  - **Stationary Phase**: Polar (e.g., silica gel or cyano groups).  
+  - **Mobile Phase**: Non-polar (e.g., hexane or chloroform).  
+  - **Separation Principle**: Polar compounds stick to the column; non-polar elute first.  
+- **Example**:  
+  - Separating **plant pigments** (chlorophyll vs. carotenoids) in herbal extracts.  
+- **When to Use**:  
+  - For very polar compounds or isomers (molecules with the same formula but different shapes).  
+  - Applications: Natural products, fat-soluble vitamins (A, D, E, K).  
+
+---
+
+## **Ion-Exchange Chromatography (IEC)**  
+- **How It Works**:  
+  - **Stationary Phase**: Charged particles (e.g., positively charged for anion exchange).  
+  - **Mobile Phase**: Buffer solution with increasing salt concentration.  
+  - **Separation Principle**: Charged molecules bind to the column; salt “competes” to release them.  
+- **Example**:  
+  - Separating **amino acids** (positively charged lysine vs. negatively charged aspartic acid).  
+- **When to Use**:  
+  - For charged molecules (proteins, DNA, ions).  
+  - Applications: Biotechnology, water quality testing (e.g., nitrate ions).  
+
+---
+
+## **Size-Exclusion Chromatography (SEC)**  
+- **How It Works**:  
+  - **Stationary Phase**: Porous beads (like a sieve).  
+  - **Mobile Phase**: Liquid buffer.  
+  - **Separation Principle**: Large molecules can’t enter pores and elute first; small molecules get trapped and elute later.  
+- **Example**:  
+  - Separating **proteins** (large) from **sugars** (small) in a vaccine formulation.  
+- **When to Use**:  
+  - For sizing large biomolecules (proteins, polymers).  
+  - Applications: Polymer analysis, protein purification.  
+
+---
+
+## **Comparison Table: Separation Modes**  
+| Mode                | Best For                          | Real-World Example                     |  
+|----------------------|-----------------------------------|----------------------------------------|  
+| **Reversed-Phase**   | Non-polar to polar organics       | Drug purity testing (e.g., aspirin)    |  
+| **Normal-Phase**     | Polar compounds, isomers          | Herbal extract analysis                |  
+| **Ion-Exchange**     | Charged molecules (proteins, ions)| Purifying insulin from bacteria        |  
+| **Size-Exclusion**   | Large vs. small molecules          | Checking protein size in biopharmaceuticals |  
+
+---

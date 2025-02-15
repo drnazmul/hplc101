@@ -1,0 +1,19 @@
+# Preface {.unnumbered}
+
+
+Imagine standing before a high-tech instrument, its screens flashing unfamiliar terms: *retention time*, *mobile phase*, *column efficiency*. This was me two decades ago—a novice chemist overwhelmed by HPLC’s complexity. Today, after training hundreds of students and professionals, I’ve learned one truth: **HPLC mastery begins with simplicity**.  
+
+This book was born from countless lab sessions where I witnessed talented individuals struggle not with science, but with *how we teach it*. Traditional resources drown readers in equations and engineering details, leaving practical skills as an afterthought. *HPLC for All* flips this model.  
+
+Here, we focus on **what truly matters in daily lab work**:  
+- How to recognize a failing pump (listen for the “hiccups”)  
+- Why adjusting the mobile phase is like tuning a radio for clearer signals  
+- When to suspect a contaminated column (spoiler: ghost peaks tell stories)  
+
+You’ll find no differential equations here—just actionable insights drawn from real chromatography challenges. The coffee stain on Chapter 3? That’s from testing caffeine analysis methods at midnight. The hand-drawn sketches? Born from explaining HPLC to my daughter using toy cars and sand filters.  
+
+This book is for those who learn by *doing*, not deriving. Whether you’re analyzing herbal medicines in Nairobi or wastewater in New Delhi, the core principles remain universal.  
+
+A heartfelt thank you to the technicians, students, and fellow scientists who shaped these lessons. Your questions—especially the “silly” ones—taught me how to teach.  
+
+Now, let’s turn confusion into confidence. Your HPLC journey starts here.  

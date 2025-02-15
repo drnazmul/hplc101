@@ -1,0 +1,49 @@
+project:
+  type: book
+
+book:
+  title: "HPLC for All"
+  reader-mode: true
+  cover-image: cover.png
+  #favicon: my-favicon.jpg
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - preface.qmd
+    - part: intro-chrom.qmd
+      chapters: 
+        - chrom.qmd
+        - chrom-tech.qmd
+    - part: components.qmd
+      chapters:
+        - parts.qmd
+        - phases.qmd
+    - part: theory.qmd
+      chapters: 
+        - terms.qmd
+        - factors.qmd
+    - part: types.qmd
+      chapters: 
+        - sep-mode.qmd
+        - grad-iso.qmd
+    - part: method-dev.qmd
+      chapters: 
+        - design.qmd
+        - spl-prep.qmd
+    - part: instrumentation.qmd
+      chapters: 
+        - column.qmd
+        - detector.qmd
+
+
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - hplc101.scss
+    callout-appearance: simple
+
+

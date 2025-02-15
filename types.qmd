@@ -1,0 +1,8 @@
+# Types of HPLC {#sec-types .unnumbered}
+
+*Separation Modes and Elution Techniques*
+ 
+HPLC is like a Swiss Army knife: it has different “modes” to tackle unique separation challenges. This chapter explains the four main separation strategies and how to decide between **gradient** and **isocratic** elution. We’ll use real-world examples to show when and why each method shines.  
+
+---
+

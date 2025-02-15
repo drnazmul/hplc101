@@ -1,0 +1,26 @@
+# Welcome {.unnumbered}
+
+Dear Reader,  
+
+Welcome to the world of High-Performance Liquid Chromatography (HPLC)—a technique that has revolutionized how we analyze, separate, and understand the chemical composition of almost everything around us. Whether you’re a student stepping into analytical chemistry, a lab technician refining your skills, or a researcher seeking practical insights, this book is designed to be your guide.  
+
+HPLC is not just an instrument—it’s a bridge between curiosity and discovery. From ensuring the safety of medicines to detecting pollutants in water, from verifying the quality of food to unlocking the secrets of natural products, HPLC plays a critical role in science and industry. But let’s be honest: For beginners, HPLC can feel overwhelming. Terms like *mobile phase*, *stationary phase*, *retention time*, and *column efficiency* may sound intimidating. Diagrams of complex systems and equations might make you wonder, *“Where do I even start?”*  
+
+This book is here to simplify that journey.  
+
+Think of *HPLC for All* as your friendly lab partner. We’ll start with the fundamentals: *What is HPLC, and why does it work?* You’ll learn how to prepare samples, choose the right column, and interpret chromatograms through real-world examples—like analyzing caffeine in coffee or detecting vitamins in fruit juice. We’ll demystify method development, troubleshoot common problems (ever had a noisy baseline or a split peak?), and explore how to validate your results.  
+
+But this isn’t just theory. Every concept is tied to practical scenarios. For instance:  
+- *Why does a longer column improve separation?*  
+- *How does pH affect your analysis of aspirin in a tablet?*  
+- *What happens if you accidentally use methanol instead of acetonitrile?*  
+
+By the end, you’ll not only operate an HPLC confidently but also *think* like an chromatographer—understanding the “why” behind every step.  
+
+HPLC is both a science and an art. It requires knowledge, patience, and creativity. My goal is to equip you with the tools to master this technique, whether you’re running your first injection or optimizing a complex method.  
+
+Let’s begin this journey together. Turn the page, and let’s explore HPLC!  
+ 
+## Acknowledgements {.unnumbered}
+
+I am grateful for my family and friends who made this possible. Their unwavering support and encouragement have been invaluable throughout this journey.

@@ -1,0 +1,48 @@
+# Basic Terms
+ 
+
+## **Retention Time (t<sub>R</sub>)**  
+- **What it is**: The time a compound takes to travel through the column and reach the detector.  
+- **Why it matters**: Like a runner’s race time, retention time helps identify compounds.  
+- **Example**: In a caffeine-aspirin mix:  
+  - Aspirin (polar) exits quickly (retention time = 2.5 min).  
+  - Caffeine (non-polar) takes longer (retention time = 4.0 min).  
+
+---
+
+## **Resolution (R)**  
+- **What it is**: How well two adjacent peaks are separated on a chromatogram.  
+- **Why it matters**: Poor resolution means peaks overlap, making it hard to identify or measure compounds accurately.  
+- **Formula (Simplified)**:  
+  - *Good resolution* (R > 1.5): Peaks are fully separated.  
+  - *Poor resolution* (R < 1.0): Peaks merge into a blob.  
+- **Example**:  
+  - **Good resolution**: Caffeine and aspirin peaks are distinct.  
+  - **Bad resolution**: Peaks overlap, making it unclear if the tablet has the right dose.  
+
+---
+
+## **Efficiency (Theoretical Plates, N)**  
+- **What it is**: A measure of how well a column separates compounds. More “plates” = sharper peaks.  
+- **Why it matters**: Higher efficiency means better separation in less time.  
+- **Analogy**: Think of a column as a staircase. Each step (theoretical plate) gives compounds a chance to separate. More steps = better separation.  
+- **Example**:  
+  - A column with 10,000 plates produces sharp peaks.  
+  - A worn-out column with 2,000 plates gives broad, messy peaks.  
+
+---
+
+## **Selectivity (α)**  
+- **What it is**: How differently two compounds interact with the column.  
+- **Why it matters**: High selectivity means compounds separate easily.  
+- **Formula (Simplified)**:  
+  - Selectivity (α) = Retention time of Compound B / Retention time of Compound A.  
+- **Example**:  
+  - If caffeine takes 4 min and aspirin 2 min, α = 4/2 = 2.0 (good selectivity).  
+  - If α = 1.0, the compounds can’t be separated.  
+
+---
+ 
+
+
+ 

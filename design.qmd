@@ -1,0 +1,54 @@
+# Designing an HPLC Method
+
+### **Part 1: Designing an HPLC Method**  
+
+#### **1. Column Selection**  
+The column is the heart of HPLC. Choose based on your sample’s chemistry:  
+- **Reversed-Phase (C18)**: Default for most organic compounds (e.g., drugs, pesticides).  
+- **HILIC (Hydrophilic Interaction)**: For very polar compounds (e.g., sugars, amino acids).  
+- **Ion-Exchange**: Charged molecules like proteins or nucleotides.  
+- **Particle Size**:  
+  - **5 µm**: Standard for most applications.  
+  - **3 µm or smaller**: Faster runs but higher pressure.  
+
+**Example**:  
+- Analyzing **ibuprofen** (non-polar) in a tablet: Use a C18 column (150 mm x 4.6 mm, 5 µm).  
+
+---
+
+#### **2. Mobile Phase Optimization**  
+The mobile phase’s composition controls separation. Key factors:  
+- **Organic Modifier**: Methanol (cheap) or acetonitrile (sharper peaks).  
+- **pH**: Adjust with buffers (e.g., phosphate, acetate) for ionizable compounds.  
+- **Gradient vs. Isocratic**: Start with isocratic for simple mixtures; use gradient for complex samples.  
+
+**Example**:  
+- Separating **caffeine** and **aspirin**:  
+  - **Isocratic**: 40% methanol, 60% water (pH 2.5 with phosphoric acid).  
+  - **Gradient**: Ramp from 20% to 60% methanol for better resolution.  
+
+---
+
+#### **3. pH Adjustments**  
+- **Acidic Compounds** (e.g., aspirin): Lower pH (2–3) keeps them neutral, improving retention on C18.  
+- **Basic Compounds** (e.g., nicotine): Higher pH (7–8) prevents ionization, enhancing interaction with the column.  
+
+**Example**:  
+- Analyzing **vitamin C** (acidic): Use pH 2.5 to keep it non-ionized for better retention.  
+
+---
+
+#### **4. Balancing Speed, Resolution, and Sensitivity**  
+- **Speed**: Increase flow rate or use shorter columns (but risk lower resolution).  
+- **Resolution**: Use smaller particles or gradient elution (but takes longer).  
+- **Sensitivity**: Optimize detector settings (e.g., UV wavelength) or concentrate the sample.  
+
+**Trade-Off Table**:  
+| Goal               | Action                          | Compromise                        |  
+|---------------------|---------------------------------|-----------------------------------|  
+| **Faster Run**      | Use 3 µm particles             | Higher pressure, shorter column life |  
+| **Better Resolution** | Reduce flow rate              | Longer run time                   |  
+| **Higher Sensitivity** | Inject more sample          | Risk of column overload           |  
+
+---
+
