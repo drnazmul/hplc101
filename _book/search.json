@@ -10,36 +10,6 @@
     ]
   },
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "Introduction",
-    "section": "",
-    "text": "High-Performance Liquid Chromatography (HPLC) is the workhorse of modern labs, separating mixtures into their individual components with precision. But for many, it feels like a “black box”—mysterious pumps, cryptic peaks, and intimidating jargon. This book flips that narrative.\n\n1. What You Will Learn\nYou’ll master the essentials:\n- Core Concepts: How HPLC works, explained through real-world comparisons (e.g., “columns are like filters for molecules”).\n- Key Components: The roles of pumps, injectors, columns, and detectors—simplified.\n- Practical Skills: From preparing samples to reading chromatograms.\n- Troubleshooting Basics: Fixing leaks, resolving peak issues, and avoiding common pitfalls.\n\n\n2. How This Book Is Organized\nWe follow a lab-to-logic approach:\n\nComponents First: Meet the “cast” of an HPLC system (Chapter 2).\n\nTheory Simplified: Interactions between molecules and phases, without equations (Chapter 3).\n\nHands-On Applications: Method development for drug analysis, food testing, and environmental monitoring (Chapter 4).\n\nProblem-Solving: A troubleshooting flowchart for noisy baselines, ghost peaks, and more (Chapter 5).\n\n\n\n3. What You Won’t Learn\nThis book intentionally avoids:\n- Advanced Math: No van Deemter equations or kinetic plots.\n- Instrument Engineering: We focus on using HPLC, not building it.\n- Niche Techniques: Topics like UPLC or 2D-LC are beyond our scope.\n\n\n4. Prerequisites\nBring only your curiosity. No prior chemistry degree or lab experience is needed. Whether you’re:\n- A student analyzing caffeine in coffee for a project.\n- A technician running quality checks on painkillers.\n- A researcher transitioning to HPLC from other techniques.\nThis book meets you where you are.\n\n\nWhy This Approach Works\nImagine learning to drive a car without memorizing engine mechanics. Similarly, we prioritize practical understanding:\n- Visual Guides: Cartoons of “molecules racing through columns.”\n- Case Studies: How a misadjusted pH destroyed a separation (and how to avoid it).\n- Lab Myths Busted: Why “more pressure” isn’t always better.\nBy the end, you’ll confidently operate an HPLC system, interpret results, and troubleshoot like a pro. Let’s begin!",
-    "crumbs": [
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "2  Summary",
-    "section": "",
-    "text": "In summary, this book has no content whatsoever.",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
-    ]
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
-    "crumbs": [
-      "References"
-    ]
-  },
-  {
     "objectID": "index.html#acknowledgements",
     "href": "index.html#acknowledgements",
     "title": "HPLC for All",
@@ -50,31 +20,11 @@
     ]
   },
   {
-    "objectID": "intro.html#how-this-book-is-organized",
-    "href": "intro.html#how-this-book-is-organized",
+    "objectID": "intro.html",
+    "href": "intro.html",
     "title": "Introduction",
-    "section": "How this book is organized",
-    "text": "How this book is organized\nThe previous description of the tools of data science is organized roughly according to the order in which you use them in an analysis (although, of course, you’ll iterate through them multiple times). In our experience, however, learning data importing and tidying first is suboptimal because, 80% of the time, it’s routine and boring, and the other 20% of the time, it’s weird and frustrating. That’s a bad place to start learning a new subject! Instead, we’ll start with visualization and transformation of data that’s already been imported and tidied. That way, when you ingest and tidy your own data, your motivation will stay high because you know the pain is worth the effort.\nWithin each chapter, we try to adhere to a consistent pattern: start with some motivating examples so you can see the bigger picture, and then dive into the details. Each section of the book is paired with exercises to help you practice what you’ve learned. Although it can be tempting to skip the exercises, there’s no better way to learn than by practicing on real problems.",
-    "crumbs": [
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "intro.html#what-you-wont-learn",
-    "href": "intro.html#what-you-wont-learn",
-    "title": "Introduction",
-    "section": "What you won’t learn",
-    "text": "What you won’t learn\nThere are several important topics that this book doesn’t cover. We believe it’s important to stay ruthlessly focused on the essentials so you can get up and running as quickly as possible. That means this book can’t cover every important topic.\n\nModeling\nModeling is super important for data science, but it’s a big topic, and unfortunately, we just don’t have the space to give it the coverage it deserves here. To learn more about modeling, we highly recommend Tidy Modeling with R by our colleagues Max Kuhn and Julia Silge. This book will teach you the tidymodels family of packages, which, as you might guess from the name, share many conventions with the tidyverse packages we use in this book.\n\n\nBig data\nThis book proudly and primarily focuses on small, in-memory datasets. This is the right place to start because you can’t tackle big data unless you have experience with small data. The tools you’ll learn throughout the majority of this book will easily handle hundreds of megabytes of data, and with a bit of care, you can typically use them to work with a few gigabytes of data. We’ll also show you how to get data out of databases and parquet files, both of which are often used to store big data. You won’t necessarily be able to work with the entire dataset, but that’s not a problem because you only need a subset or subsample to answer the question that you’re interested in.\nI\n\n\nPython, Julia, and friends\nIn this book, you won’t learn anything about Python, Julia, or any other programming language useful for data science. This isn’t because we think these tools are bad. They’re not! And in practice, most data science teams use a mix of languages, often at least R and Python. But we strongly believe that it’s best to master one tool at a time, and R is a great place to start.",
-    "crumbs": [
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "intro.html#prerequisites",
-    "href": "intro.html#prerequisites",
-    "title": "Introduction",
-    "section": "Prerequisites",
-    "text": "Prerequisites\nW ### R\nTo download R, go to CRAN, the comprehensive R archive network, https://cloud.r-project.org. A new major version of R comes out once a year, and there are 2-3 minor releases each year. It’s a good idea to update regularly. Upgrading can be a bit of a hassle, especially for major versions that require you to re-install all your packages, but putting it off only makes it worse. We recommend R 4.2.0 or later for this book.\n\nRStudio",
+    "section": "",
+    "text": "High-Performance Liquid Chromatography (HPLC) is the workhorse of modern labs, separating mixtures into their individual components with precision. But for many, it feels like a “black box”—mysterious pumps, cryptic peaks, and intimidating jargon. This book flips that narrative.\n\n1. What You Will Learn\nYou’ll master the essentials:\n- Core Concepts: How HPLC works, explained through real-world comparisons (e.g., “columns are like filters for molecules”).\n- Key Components: The roles of pumps, injectors, columns, and detectors—simplified.\n- Practical Skills: From preparing samples to reading chromatograms.\n- Troubleshooting Basics: Fixing leaks, resolving peak issues, and avoiding common pitfalls.\n\n\n2. How This Book Is Organized\nWe follow a lab-to-logic approach:\n\nComponents First: Meet the “cast” of an HPLC system.\n\nTheory Simplified: Interactions between molecules and phases, without equations.\n\nHands-On Applications: Method development for drug analysis, food testing, and environmental monitoring.\n\nProblem-Solving: A troubleshooting flowchart for noisy baselines, ghost peaks, and more.\n\n\n\n3. What You Won’t Learn\nThis book intentionally avoids:\n- Advanced Math: No van Deemter equations or kinetic plots.\n- Instrument Engineering: We focus on using HPLC, not building it.\n- Niche Techniques: Topics like UPLC or 2D-LC are beyond our scope.\n\n\n4. Prerequisites\nBring only your curiosity. No prior chemistry degree or lab experience is needed. Whether you’re:\n- A student analyzing caffeine in coffee for a project.\n- A technician running quality checks on painkillers.\n- A researcher transitioning to HPLC from other techniques.\nThis book meets you where you are.\n\n\nWhy This Approach Works\nImagine learning to drive a car without memorizing engine mechanics. Similarly, we prioritize practical understanding:\n- Visual Guides: Cartoons of “molecules racing through columns.”\n- Case Studies: How a misadjusted pH destroyed a separation (and how to avoid it).\n- Lab Myths Busted: Why “more pressure” isn’t always better.\nBy the end, you’ll confidently operate an HPLC system, interpret results, and troubleshoot like a pro. Let’s begin!",
     "crumbs": [
       "Introduction"
     ]
@@ -128,7 +78,7 @@
     "section": "",
     "text": "2.1 What is Chromatography? A Quick Recap\nChromatography is a family of techniques that separate mixtures into individual components using two phases:\n1. Mobile Phase: A fluid (liquid or gas) that carries the sample.\n2. Stationary Phase: A material that stays fixed and interacts with the sample components.\nThe separation happens because each component in the mixture has a different “affinity” (attraction) for the stationary phase versus the mobile phase. Components that “stick” more to the stationary phase move slower, while those that prefer the mobile phase move faster.",
     "crumbs": [
-      "Introduction to Chromatography",
+      "Introduction",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Overview of Chromatographic Techniques</span>"
     ]
   },
@@ -139,7 +89,7 @@
     "section": "2.2 Common Chromatographic Techniques",
     "text": "2.2 Common Chromatographic Techniques\nLet’s explore four key methods: Paper Chromatography, Thin-Layer Chromatography (TLC), Gas Chromatography (GC), and High Performance Liquid Chromatography (HPLC).",
     "crumbs": [
-      "Introduction to Chromatography",
+      "Introduction",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Overview of Chromatographic Techniques</span>"
     ]
   },
@@ -150,7 +100,7 @@
     "section": "2.3 1. Paper Chromatography",
     "text": "2.3 1. Paper Chromatography\nHow It Works:\n- Stationary Phase: A strip of filter paper.\n- Mobile Phase: A solvent (e.g., water, alcohol) that travels up the paper by capillary action.\n- Process: A sample spot is placed near the bottom of the paper. As the solvent moves upward, it carries components at different speeds based on their polarity.\nExample:\n- Separating ink into its colored dyes. A black ink spot might split into blue, red, and yellow bands.\nPros:\n- Cheap, simple, and requires no fancy equipment.\n- Great for teaching basic chromatography in schools.\nCons:\n- Low resolution (bands can overlap).\n- Not quantitative (hard to measure exact amounts).\n\n\n2.3.1 2. Thin-Layer Chromatography (TLC)\nHow It Works:\n- Stationary Phase: A thin layer of adsorbent material (e.g., silica gel) coated on a glass or plastic plate.\n- Mobile Phase: Solvent travels up the plate.\n- Detection: Components are visualized under UV light or by staining.\nExample:\n- Testing the purity of a synthetic dye. A pure compound shows one spot; impurities show extra spots.\nPros:\n- Faster and higher resolution than paper chromatography.\n- Semi-quantitative (spot intensity can estimate concentration).\nCons:\n- Limited to small sample sizes.\n- Less precise than HPLC or GC.\n\n\n\n2.3.2 3. Gas Chromatography (GC)\nHow It Works:\n- Mobile Phase: An inert gas (e.g., helium).\n- Stationary Phase: A liquid-coated capillary column inside an oven.\n- Process: The sample is vaporized and carried by the gas through the column. Components separate based on volatility and polarity.\nExample:\n- Analyzing blood alcohol content. Ethanol in the blood vaporizes and elutes faster than less volatile compounds.\nPros:\n- Extremely high resolution for volatile compounds.\n- Excellent for analyzing gases or substances that can be vaporized without decomposing.\nCons:\n- Limited to thermally stable, volatile compounds (e.g., alcohols, fuels).\n- Cannot analyze large molecules like proteins or polymers.\n\n\n\n2.3.3 4. High Performance Liquid Chromatography (HPLC)\nHow It Works:\n- Mobile Phase: A liquid solvent (e.g., water, methanol) pumped at high pressure.\n- Stationary Phase: A column packed with tiny particles (e.g., C18 silica).\n- Process: The sample is injected, and components separate based on polarity, size, or charge.\nExample:\n- Testing vitamins in a multivitamin tablet. Fat-soluble vitamins (like Vitamin D) elute later than water-soluble ones (like Vitamin C).\nPros:\n- Works for non-volatile, thermally unstable, or large molecules (e.g., proteins, drugs).\n- Highly precise, quantitative, and automated.\n- Flexible: Adjust the mobile phase or column for different separations.\nCons:\n- Expensive equipment and maintenance.\n- Requires training to operate.",
     "crumbs": [
-      "Introduction to Chromatography",
+      "Introduction",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Overview of Chromatographic Techniques</span>"
     ]
   },
@@ -161,7 +111,7 @@
     "section": "2.4 Comparison Table",
     "text": "2.4 Comparison Table\n\n\n\n\n\n\n\n\n\n\nTechnique\nMobile Phase\nStationary Phase\nBest For\nLimitations\n\n\n\n\nPaper Chromatography\nLiquid\nFilter paper\nSimple separations (e.g., inks)\nLow resolution, not quantitative\n\n\nTLC\nLiquid\nSilica gel plate\nPurity checks, small molecules\nSemi-quantitative, small scale\n\n\nGC\nGas\nCoated capillary\nVolatile compounds (fuels, gases)\nRequires volatility, high heat\n\n\nHPLC\nLiquid\nPacked column\nNon-volatile, complex mixtures\nCostly, complex setup",
     "crumbs": [
-      "Introduction to Chromatography",
+      "Introduction",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Overview of Chromatographic Techniques</span>"
     ]
   },
@@ -172,7 +122,7 @@
     "section": "2.5 Why is HPLC Widely Used?",
     "text": "2.5 Why is HPLC Widely Used?\nHPLC dominates modern labs for five key reasons:\n\nVersatility:\n\nHandles almost any compound: polar, non-polar, large (proteins), or small (drugs).\n\nExample: HPLC can separate insulin (a protein) and aspirin (a small molecule) in the same run.\n\nHigh Resolution and Sensitivity:\n\nDetects trace amounts (e.g., 0.001% impurities in a drug).\n\nExample: Ensuring a cancer drug contains 99.9% active ingredient.\n\nQuantitative Precision:\n\nAccurately measures concentrations using peak areas.\n\nExample: Calculating caffeine levels in energy drinks to meet FDA standards.\n\nAutomation:\n\nAutosamplers and software allow overnight runs with minimal human intervention.\n\nAdaptability:\n\nSwap columns or adjust mobile phases to tackle new challenges.\n\nExample: Using an ion-exchange column to separate charged molecules like DNA.",
     "crumbs": [
-      "Introduction to Chromatography",
+      "Introduction",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Overview of Chromatographic Techniques</span>"
     ]
   },
@@ -183,7 +133,7 @@
     "section": "2.6 Real-World Applications of HPLC",
     "text": "2.6 Real-World Applications of HPLC\n\nPharmaceuticals: Testing drug purity, stability, and dosage.\n\nEnvironmental: Detecting pesticides in water.\n\nFood Safety: Measuring additives, preservatives, or allergens.\n\nForensics: Identifying illegal drugs in blood samples.",
     "crumbs": [
-      "Introduction to Chromatography",
+      "Introduction",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Overview of Chromatographic Techniques</span>"
     ]
   },
@@ -194,7 +144,7 @@
     "section": "2.7 Why Not Always Use HPLC?",
     "text": "2.7 Why Not Always Use HPLC?\nWhile powerful, HPLC isn’t always the best choice:\n- For simple separations: Paper chromatography or TLC are cheaper and faster.\n- For volatile compounds: GC is more efficient (e.g., analyzing perfume ingredients).",
     "crumbs": [
-      "Introduction to Chromatography",
+      "Introduction",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Overview of Chromatographic Techniques</span>"
     ]
   },
@@ -205,7 +155,7 @@
     "section": "2.8 Key Takeaway",
     "text": "2.8 Key Takeaway\nEach chromatographic technique has its niche:\n- Paper/TLC: Quick, cheap, educational.\n- GC: King of volatile compounds.\n- HPLC: The “Swiss Army knife” for complex, non-volatile mixtures.\nHPLC’s blend of precision, flexibility, and automation makes it indispensable in research, industry, and quality control. From ensuring your morning coffee’s caffeine content to validating life-saving medications, HPLC is the silent workhorse of modern science.",
     "crumbs": [
-      "Introduction to Chromatography",
+      "Introduction",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Overview of Chromatographic Techniques</span>"
     ]
   },
@@ -492,6 +442,16 @@
     ]
   },
   {
+    "objectID": "instrumentation.html",
+    "href": "instrumentation.html",
+    "title": "Instrumentation Deep Dive",
+    "section": "",
+    "text": "Detectors and Column Chemistry – The Eyes and Heart of the System\n\nAn HPLC system is like a well-coordinated team: the pump delivers the mobile phase, the column separates compounds, and the detector acts as the “eyes” that see and measure what’s eluting. This chapter explores how detectors and column chemistry shape your analysis, with real-world examples to guide your choices.",
+    "crumbs": [
+      "Instrumentation Deep Dive"
+    ]
+  },
+  {
     "objectID": "column.html",
     "href": "column.html",
     "title": "11  Column Chemistry",
@@ -503,14 +463,36 @@
     ]
   },
   {
-    "objectID": "detectors.html",
-    "href": "detectors.html",
-    "title": "HPLC for All",
+    "objectID": "column.html#key-column-parameters",
+    "href": "column.html#key-column-parameters",
+    "title": "11  Column Chemistry",
     "section": "",
-    "text": "# Detectors\nhello",
+    "text": "11.1.1 Particle Size\n\nSmall Particles (1.7–3 µm):\n\nPros: High efficiency (sharp peaks), faster runs.\n\nCons: High pressure (requires UHPLC systems).\n\n\nLarger Particles (5–10 µm):\n\nPros: Lower pressure, longer column life.\n\nCons: Slower separations.\n\n\nExample:\n\nUHPLC: Uses 1.7 µm particles to separate 10 compounds in 5 minutes.\n\nStandard HPLC: Uses 5 µm particles for routine drug analysis.\n\n\n\n\n\n11.1.2 Column Dimensions\n\nLength:\n\nLong columns (250 mm): Better resolution for complex mixtures.\n\nShort columns (50 mm): Faster runs for simple separations.\n\n\nDiameter:\n\nNarrow columns (2.1 mm): Save solvent and detect trace amounts.\n\nWide columns (4.6 mm): Standard for most applications.\n\n\nExample:\n\nEnvironmental lab: Uses a long, narrow column (150 mm x 2.1 mm) to detect pesticides at ultra-low levels.\n\n\n\n\n\n11.1.3 Guard Columns\n\nWhat It Is: A mini-column placed before the main column to trap impurities.\n\nWhy Use It: Protects the expensive analytical column from:\n\nParticles (e.g., unfiltered soil extracts).\n\nStrongly retained compounds (e.g., fats in food samples).\n\n\nExample:\n\nA guard column with the same packing as the main column extends its lifespan when analyzing dirty samples like herbal extracts.\n\n\n\n\n\n11.1.4 Real-World Example: Detector & Column Pairing\nGoal: Analyze aspirin (active ingredient) and starch (filler) in a tablet.\n1. Detector Choice:\n- UV-Vis at 254 nm (aspirin absorbs UV; starch does not).\n2. Column Choice:\n- C18 column (100 mm x 4.6 mm, 5 µm) for reversed-phase separation.\n3. Guard Column: Added to protect against tablet filler particles.\nResult:\n- Aspirin elutes as a sharp peak at 3.2 min.\n- Starch (unretained) exits early and isn’t detected by UV.",
     "crumbs": [
       "Instrumentation Deep Dive",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>detectors.html</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Column Chemistry</span>"
+    ]
+  },
+  {
+    "objectID": "column.html#hplc-column-installation",
+    "href": "column.html#hplc-column-installation",
+    "title": "11  Column Chemistry",
+    "section": "11.2 HPLC Column Installation",
+    "text": "11.2 HPLC Column Installation\nInstalling an HPLC column correctly is essential for accurate and reliable results. This chapter provides a detailed guide to the installation process, covering the necessary steps and precautions.\n\n11.2.1 Pre-Installation System Preparation\n\n11.2.1.1 Flushing the LC System\nBefore installing a new column, it is crucial to clean the entire LC system. Contaminants from previous analyses can damage the new column and affect its performance.\nProcedure:\n\nWash the entire LC system: This includes all flow lines and the sample loop. Switch the valve to ensure all parts of the system are flushed.\nReplace the washing solution: Use the eluent that will be used for the analysis.\nAddressing Eluent Miscibility: If the new eluent has low miscibility with the previous eluent, use an intermediate solvent.\n\nExample: When switching from chloroform to water, first run methanol to bridge the gap in polarity. Then, introduce water.\nExample: If the previous analysis used a highly concentrated buffer or salt solution, flush with water first before introducing the new eluent.\n\n\n\n\n11.2.1.2 Rationale\nThis comprehensive cleaning process ensures that any residual chemicals that could potentially interfere with the new column or your analysis are removed.\n\n\n\n11.2.2 Installation Steps\n\n11.2.2.1 Flow Direction\n\nOrientation: Connect the column according to the “flow direction arrow” (→) on the column label.\nGuard Column: If using a guard column, position it before (upstream of) the analytical column.\n\n\n\n11.2.2.2 Tubing Connections\n\nFull Insertion: Make sure to insert the tubing all the way into the end fitting. This prevents extra space between the tubing and the column side of the fitting, which can lead to sample spreading and wide peaks.\nTighten Securely: Secure the connections tightly using the male nut. This prevents leaks, which can cause electronic issues, rust, or chemical injuries.\n\n\n\n11.2.2.3 Initial Flow Rate\n\nStart Slow: Set the initial flow rate to half of the recommended flow rate.\nTemperature Considerations: If using the column at an elevated temperature, maintain a low flow rate until the column reaches the set temperature. Gradually increase the flow rate to the desired level.\n\n\n\n\n11.2.3 Precautions during Installation\n\n11.2.3.1 Leak Prevention\n\nVerification: Always check for solvent leaks after installation. Leaks can lead to electronic issues, rust, or chemical injuries.\n\n\n\n11.2.3.2 Air Bubble Management\n\nAvoid Air Bubbles: Prevent air bubbles from entering the column during installation, as they can cause unstable baselines or pressure spikes.\n\n\n\n11.2.3.3 Restarting After Pausing\n\nGradual Restart: When restarting the system after installation or after holding the eluent flow, start the flow at a low rate to prevent a sudden increase in pressure that could damage the column.\n\n\n\n11.2.3.4 Cooling Procedures\n\nHeated Columns: If the column was used at an elevated temperature, reduce the flow rate to half of the recommended flow rate and turn off the column oven. Allow the column temperature to return to room temperature before stopping the eluent flow.\n\nRationale: Stopping the flow while the column is hot can cause the eluent volume to decrease as it cools, creating negative pressure that deteriorates the column.\n\n\n\n\n\n11.2.4 Common Issues and Troubleshooting\n\n11.2.4.1 Issue: High Backpressure\n\nPossible Cause: Blocked or partially blocked column.\nSolution: Try reversing the flow and flushing the column with a suitable solvent.\n\n\n\n11.2.4.2 Issue: Peak Broadening\n\nPossible Cause: Improper tubing connection or void volume at the column inlet.\nSolution: Ensure the tubing is fully inserted into the fitting and tighten the connection.\n\n\n\n11.2.4.3 Issue: Baseline Noise\n\nPossible Cause: Air bubbles in the system.\nSolution: Degas the eluent and ensure all connections are tight to prevent air from entering the system.\n\n\n\n\n11.2.5 Summary\nProper column installation is crucial for maintaining the performance and longevity of HPLC columns. By following these guidelines and taking appropriate precautions, you can ensure accurate and reproducible results. Always refer to the manufacturer’s specific instructions for detailed guidance.\n\n\n11.2.6 References\n\nShodex HPLC Columns and Standards - General Precautions for Column Handling.\nPavel V. Goreshkov, HPLC Column Care and Use, ChromAcademy, 2023.\n\nCitations: [1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/48997052/4f525574-eb7a-4978-b4bf-bec34ada1cae/General-Precautions-for-Column-Handling-_-Shodex-HPLC-Columns-and-Standards.pdf",
+    "crumbs": [
+      "Instrumentation Deep Dive",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Column Chemistry</span>"
+    ]
+  },
+  {
+    "objectID": "column.html#sample-preparation-in-hplc",
+    "href": "column.html#sample-preparation-in-hplc",
+    "title": "11  Column Chemistry",
+    "section": "11.3 Sample Preparation in HPLC",
+    "text": "11.3 Sample Preparation in HPLC\nProper sample preparation is a critical step in High-Performance Liquid Chromatography (HPLC) analysis. The quality of the results depends significantly on how well the sample is prepared. Poor sample preparation can lead to inaccurate results, column damage, and increased maintenance costs. This section provides guidelines for preparing samples effectively for HPLC analysis.\n\n11.3.1 Choosing the Right Solvent\nThe first step in sample preparation is dissolving or diluting the sample in a suitable solvent. Ideally, the solvent used should be compatible with the HPLC system and the analytical column.\n\nUsing the Eluent: Whenever possible, dissolve or dilute the sample using the eluent that will be used for the HPLC analysis. This approach minimizes potential issues related to solvent effects, which can affect peak shape and retention time.\nAlternative Solvents: If the sample does not dissolve or dilute well in the eluent, select a solvent that:\n\nFully dissolves the sample\nHas a composition as close as possible to the eluent’s composition\nIs miscible with the eluent\nExample: If the eluent is 60% water and 40% acetonitrile, and the sample does not dissolve well, try using a mixture of 50% water and 50% acetonitrile.\n\nGradient Elution: When using gradient elution, prepare the sample using the initial eluent composition. This helps to ensure that the sample is introduced into the column under conditions that are consistent with the starting conditions of the gradient program.\n\nRationale: Gradient elution involves changing the eluent composition over time. Using the initial eluent for sample preparation minimizes any disturbances at the start of the analysis.\n\n\n\n\n11.3.2 Filtration\nFiltration is a critical step in sample preparation to remove particulate matter that can clog the analytical column and deteriorate its performance.\n\nFilter Selection: Use a disposable 0.45-μm filter for sample filtration. This filter size is effective in removing most particulate matter that can cause problems in HPLC systems.\nFiltration Procedure:\n\nAttach the disposable filter to a syringe.\nDraw the sample solution into the syringe.\nGently push the sample solution through the filter into a clean vial.\n\nRationale: Filtration removes insoluble substances that would otherwise accumulate on the head of the column, leading to increased backpressure and reduced column efficiency.\n\n\n\n11.3.3 Use of Guard Columns\nA guard column is a short column placed before the analytical column to protect it from contamination. Guard columns are packed with similar material to that of analytical column. It is recommended to use guard column to extend the life of the analytical column by trapping irreversible adsorbing materials. The guard column should be replaced at regular intervals.\n\n\n11.3.4 Common Issues and Troubleshooting\n\n11.3.4.1 Sample Solubility Issues\n\nProblem: Sample does not fully dissolve in the selected solvent.\nSolution:\n\nTry a stronger solvent or a different solvent mixture.\nUse sonication to aid in dissolving the sample.\nIf necessary, heat the solvent to increase solubility (ensure the sample is stable at the elevated temperature).\n\n\n\n\n11.3.4.2 Filter Clogging\n\nProblem: The filter becomes clogged during filtration, making it difficult to process the sample.\nSolution:\n\nUse a pre-filter to remove larger particles before using the 0.45-μm filter.\nTry a different type of filter with a larger pore size if the sample contains many fine particles (but ensure it still removes particles that could damage the column).\nDilute the sample to reduce the concentration of particulate matter.\n\n\n\n\n\n11.3.5 Conclusion\nEffective sample preparation is essential for achieving accurate and reliable HPLC results. By selecting the appropriate solvent, filtering the sample, and considering the use of a guard column, you can protect your analytical column and ensure the quality of your analysis. Following these guidelines will help you to maintain the performance of your HPLC system and obtain consistent, reproducible results.\n\n\n11.3.6 References\n\nShodex HPLC Columns and Standards - General Precautions for Column Handling.\nR. K. Gilpin, Sample Preparation for Liquid Chromatography, in Chromatographic and Electrophoretic Methods, 2020.\nD. Keefe, Sample Preparation Techniques for HPLC, Journal of Chromatography, 2018.\n\nCitations: [1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/48997052/4f525574-eb7a-4978-b4bf-bec34ada1cae/General-Precautions-for-Column-Handling-_-Shodex-HPLC-Columns-and-Standards.pdf",
+    "crumbs": [
+      "Instrumentation Deep Dive",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Column Chemistry</span>"
     ]
   },
   {
@@ -610,50 +592,6 @@
     "crumbs": [
       "Instrumentation Deep Dive",
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>Detectors</span>"
-    ]
-  },
-  {
-    "objectID": "column.html#hplc-column-installation",
-    "href": "column.html#hplc-column-installation",
-    "title": "11  Column Chemistry",
-    "section": "11.2 HPLC Column Installation",
-    "text": "11.2 HPLC Column Installation\nInstalling an HPLC column correctly is essential for accurate and reliable results. This chapter provides a detailed guide to the installation process, covering the necessary steps and precautions.\n\n11.2.1 Pre-Installation System Preparation\n\n11.2.1.1 Flushing the LC System\nBefore installing a new column, it is crucial to clean the entire LC system. Contaminants from previous analyses can damage the new column and affect its performance.\nProcedure:\n\nWash the entire LC system: This includes all flow lines and the sample loop. Switch the valve to ensure all parts of the system are flushed.\nReplace the washing solution: Use the eluent that will be used for the analysis.\nAddressing Eluent Miscibility: If the new eluent has low miscibility with the previous eluent, use an intermediate solvent.\n\nExample: When switching from chloroform to water, first run methanol to bridge the gap in polarity. Then, introduce water.\nExample: If the previous analysis used a highly concentrated buffer or salt solution, flush with water first before introducing the new eluent.\n\n\n\n\n11.2.1.2 Rationale\nThis comprehensive cleaning process ensures that any residual chemicals that could potentially interfere with the new column or your analysis are removed.\n\n\n\n11.2.2 Installation Steps\n\n11.2.2.1 Flow Direction\n\nOrientation: Connect the column according to the “flow direction arrow” (→) on the column label.\nGuard Column: If using a guard column, position it before (upstream of) the analytical column.\n\n\n\n11.2.2.2 Tubing Connections\n\nFull Insertion: Make sure to insert the tubing all the way into the end fitting. This prevents extra space between the tubing and the column side of the fitting, which can lead to sample spreading and wide peaks.\nTighten Securely: Secure the connections tightly using the male nut. This prevents leaks, which can cause electronic issues, rust, or chemical injuries.\n\n\n\n11.2.2.3 Initial Flow Rate\n\nStart Slow: Set the initial flow rate to half of the recommended flow rate.\nTemperature Considerations: If using the column at an elevated temperature, maintain a low flow rate until the column reaches the set temperature. Gradually increase the flow rate to the desired level.\n\n\n\n\n11.2.3 Precautions during Installation\n\n11.2.3.1 Leak Prevention\n\nVerification: Always check for solvent leaks after installation. Leaks can lead to electronic issues, rust, or chemical injuries.\n\n\n\n11.2.3.2 Air Bubble Management\n\nAvoid Air Bubbles: Prevent air bubbles from entering the column during installation, as they can cause unstable baselines or pressure spikes.\n\n\n\n11.2.3.3 Restarting After Pausing\n\nGradual Restart: When restarting the system after installation or after holding the eluent flow, start the flow at a low rate to prevent a sudden increase in pressure that could damage the column.\n\n\n\n11.2.3.4 Cooling Procedures\n\nHeated Columns: If the column was used at an elevated temperature, reduce the flow rate to half of the recommended flow rate and turn off the column oven. Allow the column temperature to return to room temperature before stopping the eluent flow.\n\nRationale: Stopping the flow while the column is hot can cause the eluent volume to decrease as it cools, creating negative pressure that deteriorates the column.\n\n\n\n\n\n11.2.4 Common Issues and Troubleshooting\n\n11.2.4.1 Issue: High Backpressure\n\nPossible Cause: Blocked or partially blocked column.\nSolution: Try reversing the flow and flushing the column with a suitable solvent.\n\n\n\n11.2.4.2 Issue: Peak Broadening\n\nPossible Cause: Improper tubing connection or void volume at the column inlet.\nSolution: Ensure the tubing is fully inserted into the fitting and tighten the connection.\n\n\n\n11.2.4.3 Issue: Baseline Noise\n\nPossible Cause: Air bubbles in the system.\nSolution: Degas the eluent and ensure all connections are tight to prevent air from entering the system.\n\n\n\n\n11.2.5 Summary\nProper column installation is crucial for maintaining the performance and longevity of HPLC columns. By following these guidelines and taking appropriate precautions, you can ensure accurate and reproducible results. Always refer to the manufacturer’s specific instructions for detailed guidance.\n\n\n11.2.6 References\n\nShodex HPLC Columns and Standards - General Precautions for Column Handling.\nPavel V. Goreshkov, HPLC Column Care and Use, ChromAcademy, 2023.\n\nCitations: [1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/48997052/4f525574-eb7a-4978-b4bf-bec34ada1cae/General-Precautions-for-Column-Handling-_-Shodex-HPLC-Columns-and-Standards.pdf",
-    "crumbs": [
-      "Instrumentation Deep Dive",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Column Chemistry</span>"
-    ]
-  },
-  {
-    "objectID": "column.html#sample-preparation-in-hplc",
-    "href": "column.html#sample-preparation-in-hplc",
-    "title": "11  Column Chemistry",
-    "section": "11.3 Sample Preparation in HPLC",
-    "text": "11.3 Sample Preparation in HPLC\nProper sample preparation is a critical step in High-Performance Liquid Chromatography (HPLC) analysis. The quality of the results depends significantly on how well the sample is prepared. Poor sample preparation can lead to inaccurate results, column damage, and increased maintenance costs. This section provides guidelines for preparing samples effectively for HPLC analysis.\n\n11.3.1 Choosing the Right Solvent\nThe first step in sample preparation is dissolving or diluting the sample in a suitable solvent. Ideally, the solvent used should be compatible with the HPLC system and the analytical column.\n\nUsing the Eluent: Whenever possible, dissolve or dilute the sample using the eluent that will be used for the HPLC analysis. This approach minimizes potential issues related to solvent effects, which can affect peak shape and retention time.\nAlternative Solvents: If the sample does not dissolve or dilute well in the eluent, select a solvent that:\n\nFully dissolves the sample\nHas a composition as close as possible to the eluent’s composition\nIs miscible with the eluent\nExample: If the eluent is 60% water and 40% acetonitrile, and the sample does not dissolve well, try using a mixture of 50% water and 50% acetonitrile.\n\nGradient Elution: When using gradient elution, prepare the sample using the initial eluent composition. This helps to ensure that the sample is introduced into the column under conditions that are consistent with the starting conditions of the gradient program.\n\nRationale: Gradient elution involves changing the eluent composition over time. Using the initial eluent for sample preparation minimizes any disturbances at the start of the analysis.\n\n\n\n\n11.3.2 Filtration\nFiltration is a critical step in sample preparation to remove particulate matter that can clog the analytical column and deteriorate its performance.\n\nFilter Selection: Use a disposable 0.45-μm filter for sample filtration. This filter size is effective in removing most particulate matter that can cause problems in HPLC systems.\nFiltration Procedure:\n\nAttach the disposable filter to a syringe.\nDraw the sample solution into the syringe.\nGently push the sample solution through the filter into a clean vial.\n\nRationale: Filtration removes insoluble substances that would otherwise accumulate on the head of the column, leading to increased backpressure and reduced column efficiency.\n\n\n\n11.3.3 Use of Guard Columns\nA guard column is a short column placed before the analytical column to protect it from contamination. Guard columns are packed with similar material to that of analytical column. It is recommended to use guard column to extend the life of the analytical column by trapping irreversible adsorbing materials. The guard column should be replaced at regular intervals.\n\n\n11.3.4 Common Issues and Troubleshooting\n\n11.3.4.1 Sample Solubility Issues\n\nProblem: Sample does not fully dissolve in the selected solvent.\nSolution:\n\nTry a stronger solvent or a different solvent mixture.\nUse sonication to aid in dissolving the sample.\nIf necessary, heat the solvent to increase solubility (ensure the sample is stable at the elevated temperature).\n\n\n\n\n11.3.4.2 Filter Clogging\n\nProblem: The filter becomes clogged during filtration, making it difficult to process the sample.\nSolution:\n\nUse a pre-filter to remove larger particles before using the 0.45-μm filter.\nTry a different type of filter with a larger pore size if the sample contains many fine particles (but ensure it still removes particles that could damage the column).\nDilute the sample to reduce the concentration of particulate matter.\n\n\n\n\n\n11.3.5 Conclusion\nEffective sample preparation is essential for achieving accurate and reliable HPLC results. By selecting the appropriate solvent, filtering the sample, and considering the use of a guard column, you can protect your analytical column and ensure the quality of your analysis. Following these guidelines will help you to maintain the performance of your HPLC system and obtain consistent, reproducible results.\n\n\n11.3.6 References\n\nShodex HPLC Columns and Standards - General Precautions for Column Handling.\nR. K. Gilpin, Sample Preparation for Liquid Chromatography, in Chromatographic and Electrophoretic Methods, 2020.\nD. Keefe, Sample Preparation Techniques for HPLC, Journal of Chromatography, 2018.\n\nCitations: [1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/48997052/4f525574-eb7a-4978-b4bf-bec34ada1cae/General-Precautions-for-Column-Handling-_-Shodex-HPLC-Columns-and-Standards.pdf",
-    "crumbs": [
-      "Instrumentation Deep Dive",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Column Chemistry</span>"
-    ]
-  },
-  {
-    "objectID": "column.html#particle-size",
-    "href": "column.html#particle-size",
-    "title": "11  Column Chemistry",
-    "section": "",
-    "text": "Small Particles (1.7–3 µm):\n\nPros: High efficiency (sharp peaks), faster runs.\n\nCons: High pressure (requires UHPLC systems).\n\n\nLarger Particles (5–10 µm):\n\nPros: Lower pressure, longer column life.\n\nCons: Slower separations.\n\n\nExample:\n\nUHPLC: Uses 1.7 µm particles to separate 10 compounds in 5 minutes.\n\nStandard HPLC: Uses 5 µm particles for routine drug analysis.\n\n\n\n\n11.1.1 Column Dimensions\n\nLength:\n\nLong columns (250 mm): Better resolution for complex mixtures.\n\nShort columns (50 mm): Faster runs for simple separations.\n\n\nDiameter:\n\nNarrow columns (2.1 mm): Save solvent and detect trace amounts.\n\nWide columns (4.6 mm): Standard for most applications.\n\n\nExample:\n\nEnvironmental lab: Uses a long, narrow column (150 mm x 2.1 mm) to detect pesticides at ultra-low levels.\n\n\n\n\n\n11.1.2 Guard Columns\n\nWhat It Is: A mini-column placed before the main column to trap impurities.\n\nWhy Use It: Protects the expensive analytical column from:\n\nParticles (e.g., unfiltered soil extracts).\n\nStrongly retained compounds (e.g., fats in food samples).\n\n\nExample:\n\nA guard column with the same packing as the main column extends its lifespan when analyzing dirty samples like herbal extracts.\n\n\n\n\n\n11.1.3 Real-World Example: Detector & Column Pairing\nGoal: Analyze aspirin (active ingredient) and starch (filler) in a tablet.\n1. Detector Choice:\n- UV-Vis at 254 nm (aspirin absorbs UV; starch does not).\n2. Column Choice:\n- C18 column (100 mm x 4.6 mm, 5 µm) for reversed-phase separation.\n3. Guard Column: Added to protect against tablet filler particles.\nResult:\n- Aspirin elutes as a sharp peak at 3.2 min.\n- Starch (unretained) exits early and isn’t detected by UV.",
-    "crumbs": [
-      "Instrumentation Deep Dive",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Column Chemistry</span>"
-    ]
-  },
-  {
-    "objectID": "column.html#key-column-parameters",
-    "href": "column.html#key-column-parameters",
-    "title": "11  Column Chemistry",
-    "section": "",
-    "text": "11.1.1 Particle Size\n\nSmall Particles (1.7–3 µm):\n\nPros: High efficiency (sharp peaks), faster runs.\n\nCons: High pressure (requires UHPLC systems).\n\n\nLarger Particles (5–10 µm):\n\nPros: Lower pressure, longer column life.\n\nCons: Slower separations.\n\n\nExample:\n\nUHPLC: Uses 1.7 µm particles to separate 10 compounds in 5 minutes.\n\nStandard HPLC: Uses 5 µm particles for routine drug analysis.\n\n\n\n\n\n11.1.2 Column Dimensions\n\nLength:\n\nLong columns (250 mm): Better resolution for complex mixtures.\n\nShort columns (50 mm): Faster runs for simple separations.\n\n\nDiameter:\n\nNarrow columns (2.1 mm): Save solvent and detect trace amounts.\n\nWide columns (4.6 mm): Standard for most applications.\n\n\nExample:\n\nEnvironmental lab: Uses a long, narrow column (150 mm x 2.1 mm) to detect pesticides at ultra-low levels.\n\n\n\n\n\n11.1.3 Guard Columns\n\nWhat It Is: A mini-column placed before the main column to trap impurities.\n\nWhy Use It: Protects the expensive analytical column from:\n\nParticles (e.g., unfiltered soil extracts).\n\nStrongly retained compounds (e.g., fats in food samples).\n\n\nExample:\n\nA guard column with the same packing as the main column extends its lifespan when analyzing dirty samples like herbal extracts.\n\n\n\n\n\n11.1.4 Real-World Example: Detector & Column Pairing\nGoal: Analyze aspirin (active ingredient) and starch (filler) in a tablet.\n1. Detector Choice:\n- UV-Vis at 254 nm (aspirin absorbs UV; starch does not).\n2. Column Choice:\n- C18 column (100 mm x 4.6 mm, 5 µm) for reversed-phase separation.\n3. Guard Column: Added to protect against tablet filler particles.\nResult:\n- Aspirin elutes as a sharp peak at 3.2 min.\n- Starch (unretained) exits early and isn’t detected by UV.",
-    "crumbs": [
-      "Instrumentation Deep Dive",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Column Chemistry</span>"
     ]
   }
 ]
