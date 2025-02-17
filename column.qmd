@@ -3,7 +3,7 @@
 
 ## Key Column Parameters
 
-### **Particle Size**  
+### Particle Size
 - **Small Particles (1.7–3 µm)**:  
   - *Pros*: High efficiency (sharp peaks), faster runs.  
   - *Cons*: High pressure (requires UHPLC systems).  
@@ -16,7 +16,7 @@
 
 ---
 
-### **Column Dimensions**  
+### Column Dimensions
 - **Length**:  
   - *Long columns* (250 mm): Better resolution for complex mixtures.  
   - *Short columns* (50 mm): Faster runs for simple separations.  
@@ -28,7 +28,7 @@
 
 ---
 
-### **Guard Columns**  
+### Guard Columns
 - **What It Is**: A mini-column placed before the main column to trap impurities.  
 - **Why Use It**: Protects the expensive analytical column from:  
   - Particles (e.g., unfiltered soil extracts).  
@@ -38,7 +38,7 @@
 
 ---
 
-### **Real-World Example: Detector & Column Pairing**  
+### Real-World Example: Detector & Column Pairing
 **Goal**: Analyze **aspirin** (active ingredient) and **starch** (filler) in a tablet.  
 1. **Detector Choice**:  
    - **UV-Vis** at 254 nm (aspirin absorbs UV; starch does not).  
@@ -139,78 +139,6 @@ Proper column installation is crucial for maintaining the performance and longev
 
 *   Shodex HPLC Columns and Standards - General Precautions for Column Handling.
 *   Pavel V. Goreshkov, HPLC Column Care and Use, ChromAcademy, 2023.
-
-Citations:
-[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/48997052/4f525574-eb7a-4978-b4bf-bec34ada1cae/General-Precautions-for-Column-Handling-_-Shodex-HPLC-Columns-and-Standards.pdf
-
- *********************
-
-
-## Sample Preparation in HPLC
-
-Proper sample preparation is a critical step in High-Performance Liquid Chromatography (HPLC) analysis. The quality of the results depends significantly on how well the sample is prepared. Poor sample preparation can lead to inaccurate results, column damage, and increased maintenance costs. This section provides guidelines for preparing samples effectively for HPLC analysis.
-
-### Choosing the Right Solvent
-
-The first step in sample preparation is dissolving or diluting the sample in a suitable solvent. Ideally, the solvent used should be compatible with the HPLC system and the analytical column.
-
-*   **Using the Eluent:** Whenever possible, dissolve or dilute the sample using the eluent that will be used for the HPLC analysis. This approach minimizes potential issues related to solvent effects, which can affect peak shape and retention time.
-*   **Alternative Solvents:** If the sample does not dissolve or dilute well in the eluent, select a solvent that:
-    *   Fully dissolves the sample
-    *   Has a composition as close as possible to the eluent's composition
-    *   Is miscible with the eluent
-
-    *   **Example:** If the eluent is 60% water and 40% acetonitrile, and the sample does not dissolve well, try using a mixture of 50% water and 50% acetonitrile.
-
-*   **Gradient Elution:** When using gradient elution, prepare the sample using the initial eluent composition. This helps to ensure that the sample is introduced into the column under conditions that are consistent with the starting conditions of the gradient program.
-
-    *   **Rationale:** Gradient elution involves changing the eluent composition over time. Using the initial eluent for sample preparation minimizes any disturbances at the start of the analysis.
-
-### Filtration
-
-Filtration is a critical step in sample preparation to remove particulate matter that can clog the analytical column and deteriorate its performance.
-
-*   **Filter Selection:** Use a disposable 0.45-μm filter for sample filtration. This filter size is effective in removing most particulate matter that can cause problems in HPLC systems.
-*   **Filtration Procedure:**
-
-    1.  Attach the disposable filter to a syringe.
-    2.  Draw the sample solution into the syringe.
-    3.  Gently push the sample solution through the filter into a clean vial.
-*   **Rationale:** Filtration removes insoluble substances that would otherwise accumulate on the head of the column, leading to increased backpressure and reduced column efficiency.
-
-### Use of Guard Columns
-
-A guard column is a short column placed before the analytical column to protect it from contamination. Guard columns are packed with similar material to that of analytical column. It is recommended to use guard column to extend the life of the analytical column by trapping irreversible adsorbing materials. The guard column should be replaced at regular intervals.
-
-### Common Issues and Troubleshooting
-
-#### Sample Solubility Issues
-
-*   **Problem:** Sample does not fully dissolve in the selected solvent.
-*   **Solution:**
-
-    1.  Try a stronger solvent or a different solvent mixture.
-    2.  Use sonication to aid in dissolving the sample.
-    3.  If necessary, heat the solvent to increase solubility (ensure the sample is stable at the elevated temperature).
-
-#### Filter Clogging
-
-*   **Problem:** The filter becomes clogged during filtration, making it difficult to process the sample.
-*   **Solution:**
-
-    1.  Use a pre-filter to remove larger particles before using the 0.45-μm filter.
-    2.  Try a different type of filter with a larger pore size if the sample contains many fine particles (but ensure it still removes particles that could damage the column).
-    3.  Dilute the sample to reduce the concentration of particulate matter.
-
-### Conclusion
-
-Effective sample preparation is essential for achieving accurate and reliable HPLC results. By selecting the appropriate solvent, filtering the sample, and considering the use of a guard column, you can protect your analytical column and ensure the quality of your analysis. Following these guidelines will help you to maintain the performance of your HPLC system and obtain consistent, reproducible results.
-
-### References
-
-*   Shodex HPLC Columns and Standards - General Precautions for Column Handling.
-*   R. K. Gilpin, Sample Preparation for Liquid Chromatography, in *Chromatographic and Electrophoretic Methods*, 2020.
-*   D. Keefe, Sample Preparation Techniques for HPLC, *Journal of Chromatography*, 2018.
 
 Citations:
 [1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/48997052/4f525574-eb7a-4978-b4bf-bec34ada1cae/General-Precautions-for-Column-Handling-_-Shodex-HPLC-Columns-and-Standards.pdf

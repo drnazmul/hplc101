@@ -148,7 +148,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chrom-tech.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Overview of Chromatographic Techniques</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Chromatographic Techniques</span></span></a>
   </div>
 </li>
       </ul>
@@ -156,7 +156,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="./components.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">HPLC System Components</span></a>
+ <span class="menu-text">Components &amp; Workflow</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -165,13 +165,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./parts.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Key Parts of an HPLC System</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Key Components</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./phases.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Mobile Phase and Stationary Phase</span></span></a>
+  <a href="./workflow.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Workflow</span></span></a>
   </div>
 </li>
       </ul>
@@ -202,7 +202,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="./types.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Types of HPLC</span></a>
+ <span class="menu-text">Separation Modes &amp; Elution Techniques</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -216,7 +216,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./grad-iso.html" class="sidebar-item-text sidebar-link">
+  <a href="./elution.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Gradient vs.&nbsp;Isocratic Elution</span></span></a>
   </div>
 </li>
@@ -225,7 +225,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="./method-dev.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Method Development in HPLC</span></a>
+ <span class="menu-text">Method Development</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -315,14 +315,11 @@ ul.task-list li input[type="checkbox"] {
 <p>High-Performance Liquid Chromatography (HPLC) detectors act as the “eyes” of the system, converting separated compounds into measurable signals. This chapter explores 8 essential detector types, their strengths, weaknesses, and real-world applications - critical knowledge for selecting the right tool in analytical workflows.</p>
 <section id="uv-vis-detectors" class="level2" data-number="12.1">
 <h2 data-number="12.1" class="anchored" data-anchor-id="uv-vis-detectors"><span class="header-section-number">12.1</span> UV-Vis Detectors</h2>
-<p><strong>How they work</strong>: Measure light absorption between 190-900 nm using chromophores (light-absorbing molecular structures)[1][3].</p>
+<p><strong>How they work</strong>: Measure light absorption between 190-900 nm using chromophores (light-absorbing molecular structures).</p>
 <p><strong>Types</strong>:<br>
-- <strong>Fixed wavelength</strong>: Simple design (254 nm mercury lamps) for routine drug analysis[1]<br>
-- <strong>Variable wavelength</strong>: Adjustable λ (190-900 nm) for method development labs[1]<br>
-- <strong>Diode Array (DAD)</strong>: Simultaneously captures full UV spectrum, ideal for peak purity checks[1][2]</p>
+- <strong>Fixed wavelength</strong>: Simple design (254 nm mercury lamps) for routine drug analysis - <strong>Variable wavelength</strong>: Adjustable λ (190-900 nm) for method development labs - <strong>Diode Array (DAD)</strong>: Simultaneously captures full UV spectrum, ideal for peak purity checks</p>
 <p><em>Advantages</em>:<br>
-- Cost-effective for 90% of small molecules with chromophores[3]<br>
-- Compatible with gradient elution</p>
+- Cost-effective for 90% of small molecules with chromophores - Compatible with gradient elution</p>
 <p><em>Limitations</em>:<br>
 - Useless for compounds without UV activity (e.g., sugars)<br>
 - Mobile phase must be UV-transparent</p>
@@ -333,13 +330,12 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="fluorescence-detectors-fld" class="level2" data-number="12.2">
 <h2 data-number="12.2" class="anchored" data-anchor-id="fluorescence-detectors-fld"><span class="header-section-number">12.2</span> Fluorescence Detectors (FLD)</h2>
-<p><strong>Mechanism</strong>: Excites compounds at specific λ, measures emitted light[1][2].</p>
+<p><strong>Mechanism</strong>: Excites compounds at specific λ, measures emitted light.</p>
 <p><em>Advantages</em>:<br>
-- 1000x more sensitive than UV for fluorescing agents[1]<br>
+- 1000x more sensitive than UV for fluorescing agents<br>
 - Selective - reduces matrix interference</p>
 <p><em>Limitations</em>:<br>
-- Requires native fluorescence or derivatization (e.g., dansyl chloride for amines)[1]<br>
-- Limited to ~15% of analytes</p>
+- Requires native fluorescence or derivatization (e.g., dansyl chloride for amines) - Limited to ~15% of analytes</p>
 <p><em>Applications</em>:<br>
 - Aflatoxin detection in foods<br>
 - Environmental PAH monitoring</p>
@@ -347,7 +343,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="refractive-index-ri-detectors" class="level2" data-number="12.3">
 <h2 data-number="12.3" class="anchored" data-anchor-id="refractive-index-ri-detectors"><span class="header-section-number">12.3</span> Refractive Index (RI) Detectors</h2>
-<p><strong>Principle</strong>: Measures mobile phase refractive index changes[3].</p>
+<p><strong>Principle</strong>: Measures mobile phase refractive index changes.</p>
 <p><em>Advantages</em>:<br>
 - “Universal” - detects any compound<br>
 - No analyte property needed</p>
@@ -362,7 +358,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="evaporative-light-scattering-elsd" class="level2" data-number="12.4">
 <h2 data-number="12.4" class="anchored" data-anchor-id="evaporative-light-scattering-elsd"><span class="header-section-number">12.4</span> Evaporative Light Scattering (ELSD)</h2>
-<p><strong>Operation</strong>: Nebulizes eluent, detects scattered light from non-volatile particles[3].</p>
+<p><strong>Operation</strong>: Nebulizes eluent, detects scattered light from non-volatile particles.</p>
 <p><em>Advantages</em>:<br>
 - Works with gradients<br>
 - Detects non-UV actives (lipids, carbs)</p>
@@ -376,7 +372,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="conductivity-detectors" class="level2" data-number="12.5">
 <h2 data-number="12.5" class="anchored" data-anchor-id="conductivity-detectors"><span class="header-section-number">12.5</span> Conductivity Detectors</h2>
-<p><strong>Function</strong>: Measures ionic conductivity changes[3].</p>
+<p><strong>Function</strong>: Measures ionic conductivity changes.</p>
 <p><em>Advantages</em>:<br>
 - Ideal for ions (Na⁺, NO₃⁻)<br>
 - Low maintenance</p>
@@ -390,7 +386,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="mass-spectrometers-lc-ms" class="level2" data-number="12.6">
 <h2 data-number="12.6" class="anchored" data-anchor-id="mass-spectrometers-lc-ms"><span class="header-section-number">12.6</span> Mass Spectrometers (LC-MS)</h2>
-<p><strong>Technology</strong>: Ionizes molecules, separates by mass/charge ratio[1][3].</p>
+<p><strong>Technology</strong>: Ionizes molecules, separates by mass/charge ratio.</p>
 <p><em>Advantages</em>:<br>
 - Provides structural ID<br>
 - Ultra-sensitive (pg levels)</p>
@@ -452,7 +448,6 @@ ul.task-list li input[type="checkbox"] {
 </table>
 <p><strong>Pro Tip</strong>: 72% of labs use UV + secondary detector (2024 Lab Manager Survey). Pair DAD with ELSD for broad coverage.</p>
 <p>This detector “toolbox” approach empowers analysts to match detection strategy with analyte properties and study goals. Subsequent chapters will explore hyphenated techniques like LC-MS/MS in depth.</p>
-<p>Citations: [1] https://juniperpublishers.com/omcij/pdf/OMCIJ.MS.ID.555700.pdf [2] https://scioninstruments.com/us/blog/the-different-types-of-hplc-detectors/ [3] https://www.shimadzu.com/an/service-support/technical-support/liquid-chromatography/overview/detector.html [4] https://www.youtube.com/watch?v=AsSE4AsLLnU [5] https://www.shimadzu.eu/service-support/technical-support/liquid-chromatography/overview/detector.html [6] https://www.thermofisher.com/ca/en/home/industrial/chromatography/chromatography-learning-center/liquid-chromatography-information/hplc-system-components/how-hplc-detectors-work.html [7] https://www.biocompare.com/7327-Chromatography-HPLC-Detectors/ [8] https://www.tandfonline.com/doi/full/10.1080/10826076.2010.484356 [9] https://pharmasciences.in/types-of-hplc-detectors/ [10] https://www.agilent.com/cs/library/eseminars/public/An-Introduction-to-HPLC-Instrumentation-05112020.pdf [11] https://www.sigmaaldrich.com/IN/en/search/hplc-detectors-list?focus=documents&amp;page=1&amp;perpage=30&amp;sort=relevance&amp;term=hplc+detectors+list&amp;type=site_content [12] https://www.thermofisher.com/blog/analyteguru/which-hplc-detector-fits-your-analytes-best/ [13] https://www.pharmaguideline.com/2016/01/different-types-of-hplc-detectors.html [14] https://www.shimadzu.com/an/service-support/technical-support/analysis-basics/basic/overview_of_hplc_detectors.html [15] https://www.shimadzu.com/es-es/an/service-support/technical-support/liquid-chromatography/overview/detector.html [16] https://b-ac.co.uk/types-of-detectors-used-in-hplc/ [17] https://www.lcservicesltd.co.uk/types-of-detectors-used-in-gas-chromatography-and-hplc/</p>
 
 
 </section>

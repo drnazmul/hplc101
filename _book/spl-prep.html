@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./method-dev.html">Method Development in HPLC</a></li><li class="breadcrumb-item"><a href="./spl-prep.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Sample Preparation</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./method-dev.html">Method Development</a></li><li class="breadcrumb-item"><a href="./spl-prep.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Sample Preparation</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -149,7 +149,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chrom-tech.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Overview of Chromatographic Techniques</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Chromatographic Techniques</span></span></a>
   </div>
 </li>
       </ul>
@@ -157,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="./components.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">HPLC System Components</span></a>
+ <span class="menu-text">Components &amp; Workflow</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -166,13 +166,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./parts.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Key Parts of an HPLC System</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Key Components</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./phases.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Mobile Phase and Stationary Phase</span></span></a>
+  <a href="./workflow.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Workflow</span></span></a>
   </div>
 </li>
       </ul>
@@ -203,7 +203,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="./types.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Types of HPLC</span></a>
+ <span class="menu-text">Separation Modes &amp; Elution Techniques</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -217,7 +217,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./grad-iso.html" class="sidebar-item-text sidebar-link">
+  <a href="./elution.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Gradient vs.&nbsp;Isocratic Elution</span></span></a>
   </div>
 </li>
@@ -226,7 +226,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="./method-dev.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Method Development in HPLC</span></a>
+ <span class="menu-text">Method Development</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -279,20 +279,30 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#filtration" id="toc-filtration" class="nav-link active" data-scroll-target="#filtration"><span class="header-section-number">10.1</span> <strong>Filtration</strong></a></li>
-  <li><a href="#dilution" id="toc-dilution" class="nav-link" data-scroll-target="#dilution"><span class="header-section-number">10.2</span> <strong>Dilution</strong></a></li>
-  <li><a href="#solid-phase-extraction-spe" id="toc-solid-phase-extraction-spe" class="nav-link" data-scroll-target="#solid-phase-extraction-spe"><span class="header-section-number">10.3</span> <strong>Solid-Phase Extraction (SPE)</strong></a></li>
-  <li><a href="#derivatization" id="toc-derivatization" class="nav-link" data-scroll-target="#derivatization"><span class="header-section-number">10.4</span> <strong>Derivatization</strong></a></li>
-  <li><a href="#real-world-method-development-walkthrough" id="toc-real-world-method-development-walkthrough" class="nav-link" data-scroll-target="#real-world-method-development-walkthrough"><span class="header-section-number">10.5</span> <strong>Real-World Method Development Walkthrough</strong></a></li>
-  <li><a href="#common-pitfalls-fixes" id="toc-common-pitfalls-fixes" class="nav-link" data-scroll-target="#common-pitfalls-fixes"><span class="header-section-number">10.6</span> <strong>Common Pitfalls &amp; Fixes</strong></a></li>
-  <li><a href="#key-takeaways" id="toc-key-takeaways" class="nav-link" data-scroll-target="#key-takeaways"><span class="header-section-number">10.7</span> <strong>Key Takeaways</strong></a></li>
+  <li><a href="#choosing-the-right-solvent" id="toc-choosing-the-right-solvent" class="nav-link active" data-scroll-target="#choosing-the-right-solvent"><span class="header-section-number">10.1</span> Choosing the Right Solvent</a></li>
+  <li><a href="#filtration" id="toc-filtration" class="nav-link" data-scroll-target="#filtration"><span class="header-section-number">10.2</span> Filtration</a></li>
+  <li><a href="#use-of-guard-columns" id="toc-use-of-guard-columns" class="nav-link" data-scroll-target="#use-of-guard-columns"><span class="header-section-number">10.3</span> Use of Guard Columns</a></li>
+  <li><a href="#common-issues-and-troubleshooting" id="toc-common-issues-and-troubleshooting" class="nav-link" data-scroll-target="#common-issues-and-troubleshooting"><span class="header-section-number">10.4</span> Common Issues and Troubleshooting</a>
+  <ul class="collapse">
+  <li><a href="#sample-solubility-issues" id="toc-sample-solubility-issues" class="nav-link" data-scroll-target="#sample-solubility-issues"><span class="header-section-number">10.4.1</span> Sample Solubility Issues</a></li>
+  <li><a href="#filter-clogging" id="toc-filter-clogging" class="nav-link" data-scroll-target="#filter-clogging"><span class="header-section-number">10.4.2</span> Filter Clogging</a></li>
+  </ul></li>
+  <li><a href="#dilution" id="toc-dilution" class="nav-link" data-scroll-target="#dilution"><span class="header-section-number">10.5</span> <strong>Dilution</strong></a></li>
+  <li><a href="#solid-phase-extraction-spe" id="toc-solid-phase-extraction-spe" class="nav-link" data-scroll-target="#solid-phase-extraction-spe"><span class="header-section-number">10.6</span> <strong>Solid-Phase Extraction (SPE)</strong></a></li>
+  <li><a href="#derivatization" id="toc-derivatization" class="nav-link" data-scroll-target="#derivatization"><span class="header-section-number">10.7</span> <strong>Derivatization</strong></a></li>
+  <li><a href="#real-world-method-development-walkthrough" id="toc-real-world-method-development-walkthrough" class="nav-link" data-scroll-target="#real-world-method-development-walkthrough"><span class="header-section-number">10.8</span> <strong>Real-World Method Development Walkthrough</strong></a></li>
+  <li><a href="#common-pitfalls-fixes" id="toc-common-pitfalls-fixes" class="nav-link" data-scroll-target="#common-pitfalls-fixes"><span class="header-section-number">10.9</span> <strong>Common Pitfalls &amp; Fixes</strong></a></li>
+  <li><a href="#key-takeaways" id="toc-key-takeaways" class="nav-link" data-scroll-target="#key-takeaways"><span class="header-section-number">10.10</span> <strong>Key Takeaways</strong></a>
+  <ul class="collapse">
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion"><span class="header-section-number">10.10.1</span> Conclusion</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./method-dev.html">Method Development in HPLC</a></li><li class="breadcrumb-item"><a href="./spl-prep.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Sample Preparation</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./method-dev.html">Method Development</a></li><li class="breadcrumb-item"><a href="./spl-prep.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Sample Preparation</span></a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Sample Preparation</span></h1>
 </div>
@@ -311,20 +321,72 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Even the best HPLC method fails with poor sample prep. Key techniques:</p>
-<section id="filtration" class="level2" data-number="10.1">
-<h2 data-number="10.1" class="anchored" data-anchor-id="filtration"><span class="header-section-number">10.1</span> <strong>Filtration</strong></h2>
+<p>Proper sample preparation is a critical step in HPLC analysis. The quality of the results depends significantly on how well the sample is prepared. Poor sample preparation can lead to inaccurate results, column damage, and increased maintenance costs. This section provides guidelines for preparing samples effectively for HPLC analysis.</p>
+<section id="choosing-the-right-solvent" class="level2" data-number="10.1">
+<h2 data-number="10.1" class="anchored" data-anchor-id="choosing-the-right-solvent"><span class="header-section-number">10.1</span> Choosing the Right Solvent</h2>
+<p>The first step in sample preparation is dissolving or diluting the sample in a suitable solvent. Ideally, the solvent used should be compatible with the HPLC system and the analytical column.</p>
 <ul>
-<li><strong>What</strong>: Remove particles with a 0.45 µm or 0.22 µm syringe filter.<br>
-</li>
-<li><strong>Why</strong>: Particles clog columns and damage pumps.<br>
-</li>
-<li><strong>Example</strong>: Soil extracts for pesticide analysis <em>must</em> be filtered to avoid column blockage.</li>
+<li><p><strong>Using the Eluent:</strong> Whenever possible, dissolve or dilute the sample using the eluent that will be used for the HPLC analysis. This approach minimizes potential issues related to solvent effects, which can affect peak shape and retention time.</p></li>
+<li><p><strong>Alternative Solvents:</strong> If the sample does not dissolve or dilute well in the eluent, select a solvent that:</p>
+<ul>
+<li><p>Fully dissolves the sample</p></li>
+<li><p>Has a composition as close as possible to the eluent’s composition</p></li>
+<li><p>Is miscible with the eluent</p></li>
+<li><p><strong>Example:</strong> If the eluent is 60% water and 40% acetonitrile, and the sample does not dissolve well, try using a mixture of 50% water and 50% acetonitrile.</p></li>
+</ul></li>
+<li><p><strong>Gradient Elution:</strong> When using gradient elution, prepare the sample using the initial eluent composition. This helps to ensure that the sample is introduced into the column under conditions that are consistent with the starting conditions of the gradient program.</p>
+<ul>
+<li><strong>Rationale:</strong> Gradient elution involves changing the eluent composition over time. Using the initial eluent for sample preparation minimizes any disturbances at the start of the analysis.</li>
+</ul></li>
 </ul>
-<hr>
 </section>
-<section id="dilution" class="level2" data-number="10.2">
-<h2 data-number="10.2" class="anchored" data-anchor-id="dilution"><span class="header-section-number">10.2</span> <strong>Dilution</strong></h2>
+<section id="filtration" class="level2" data-number="10.2">
+<h2 data-number="10.2" class="anchored" data-anchor-id="filtration"><span class="header-section-number">10.2</span> Filtration</h2>
+<p>Filtration is a critical step in sample preparation to remove particulate matter that can clog the analytical column and deteriorate its performance.</p>
+<ul>
+<li><p><strong>Filter Selection:</strong> Use a disposable 0.45-μm filter for sample filtration. This filter size is effective in removing most particulate matter that can cause problems in HPLC systems.</p></li>
+<li><p><strong>Filtration Procedure:</strong></p>
+<ol type="1">
+<li>Attach the disposable filter to a syringe.</li>
+<li>Draw the sample solution into the syringe.</li>
+<li>Gently push the sample solution through the filter into a clean vial.</li>
+</ol></li>
+<li><p><strong>Rationale:</strong> Filtration removes insoluble substances that would otherwise accumulate on the head of the column, leading to increased backpressure and reduced column efficiency.</p></li>
+</ul>
+</section>
+<section id="use-of-guard-columns" class="level2" data-number="10.3">
+<h2 data-number="10.3" class="anchored" data-anchor-id="use-of-guard-columns"><span class="header-section-number">10.3</span> Use of Guard Columns</h2>
+<p>A guard column is a short column placed before the analytical column to protect it from contamination. Guard columns are packed with similar material to that of analytical column. It is recommended to use guard column to extend the life of the analytical column by trapping irreversible adsorbing materials. The guard column should be replaced at regular intervals.</p>
+</section>
+<section id="common-issues-and-troubleshooting" class="level2" data-number="10.4">
+<h2 data-number="10.4" class="anchored" data-anchor-id="common-issues-and-troubleshooting"><span class="header-section-number">10.4</span> Common Issues and Troubleshooting</h2>
+<section id="sample-solubility-issues" class="level3" data-number="10.4.1">
+<h3 data-number="10.4.1" class="anchored" data-anchor-id="sample-solubility-issues"><span class="header-section-number">10.4.1</span> Sample Solubility Issues</h3>
+<ul>
+<li><p><strong>Problem:</strong> Sample does not fully dissolve in the selected solvent.</p></li>
+<li><p><strong>Solution:</strong></p>
+<ol type="1">
+<li>Try a stronger solvent or a different solvent mixture.</li>
+<li>Use sonication to aid in dissolving the sample.</li>
+<li>If necessary, heat the solvent to increase solubility (ensure the sample is stable at the elevated temperature).</li>
+</ol></li>
+</ul>
+</section>
+<section id="filter-clogging" class="level3" data-number="10.4.2">
+<h3 data-number="10.4.2" class="anchored" data-anchor-id="filter-clogging"><span class="header-section-number">10.4.2</span> Filter Clogging</h3>
+<ul>
+<li><p><strong>Problem:</strong> The filter becomes clogged during filtration, making it difficult to process the sample.</p></li>
+<li><p><strong>Solution:</strong></p>
+<ol type="1">
+<li>Use a pre-filter to remove larger particles before using the 0.45-μm filter.</li>
+<li>Try a different type of filter with a larger pore size if the sample contains many fine particles (but ensure it still removes particles that could damage the column).</li>
+<li>Dilute the sample to reduce the concentration of particulate matter.</li>
+</ol></li>
+</ul>
+</section>
+</section>
+<section id="dilution" class="level2" data-number="10.5">
+<h2 data-number="10.5" class="anchored" data-anchor-id="dilution"><span class="header-section-number">10.5</span> <strong>Dilution</strong></h2>
 <ul>
 <li><strong>What</strong>: Reduce sample concentration to avoid overloading the column.<br>
 </li>
@@ -334,8 +396,8 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <hr>
 </section>
-<section id="solid-phase-extraction-spe" class="level2" data-number="10.3">
-<h2 data-number="10.3" class="anchored" data-anchor-id="solid-phase-extraction-spe"><span class="header-section-number">10.3</span> <strong>Solid-Phase Extraction (SPE)</strong></h2>
+<section id="solid-phase-extraction-spe" class="level2" data-number="10.6">
+<h2 data-number="10.6" class="anchored" data-anchor-id="solid-phase-extraction-spe"><span class="header-section-number">10.6</span> <strong>Solid-Phase Extraction (SPE)</strong></h2>
 <ul>
 <li><strong>What</strong>: Use a cartridge to purify or concentrate the sample.<br>
 </li>
@@ -352,8 +414,8 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <hr>
 </section>
-<section id="derivatization" class="level2" data-number="10.4">
-<h2 data-number="10.4" class="anchored" data-anchor-id="derivatization"><span class="header-section-number">10.4</span> <strong>Derivatization</strong></h2>
+<section id="derivatization" class="level2" data-number="10.7">
+<h2 data-number="10.7" class="anchored" data-anchor-id="derivatization"><span class="header-section-number">10.7</span> <strong>Derivatization</strong></h2>
 <ul>
 <li><strong>What</strong>: Chemically modify compounds to make them detectable.<br>
 </li>
@@ -363,8 +425,8 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <hr>
 </section>
-<section id="real-world-method-development-walkthrough" class="level2" data-number="10.5">
-<h2 data-number="10.5" class="anchored" data-anchor-id="real-world-method-development-walkthrough"><span class="header-section-number">10.5</span> <strong>Real-World Method Development Walkthrough</strong></h2>
+<section id="real-world-method-development-walkthrough" class="level2" data-number="10.8">
+<h2 data-number="10.8" class="anchored" data-anchor-id="real-world-method-development-walkthrough"><span class="header-section-number">10.8</span> <strong>Real-World Method Development Walkthrough</strong></h2>
 <p><strong>Goal</strong>: Analyze <strong>paracetamol</strong> (painkiller) and its degradation product in expired tablets.</p>
 <ol type="1">
 <li><strong>Column Selection</strong>: C18 (paracetamol is moderately polar).<br>
@@ -387,8 +449,8 @@ ul.task-list li input[type="checkbox"] {
 - Paracetamol elutes at 4.2 min; degradation product at 5.8 min (resolution R = 2.0).</p>
 <hr>
 </section>
-<section id="common-pitfalls-fixes" class="level2" data-number="10.6">
-<h2 data-number="10.6" class="anchored" data-anchor-id="common-pitfalls-fixes"><span class="header-section-number">10.6</span> <strong>Common Pitfalls &amp; Fixes</strong></h2>
+<section id="common-pitfalls-fixes" class="level2" data-number="10.9">
+<h2 data-number="10.9" class="anchored" data-anchor-id="common-pitfalls-fixes"><span class="header-section-number">10.9</span> <strong>Common Pitfalls &amp; Fixes</strong></h2>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 25%">
@@ -422,8 +484,8 @@ ul.task-list li input[type="checkbox"] {
 </table>
 <hr>
 </section>
-<section id="key-takeaways" class="level2" data-number="10.7">
-<h2 data-number="10.7" class="anchored" data-anchor-id="key-takeaways"><span class="header-section-number">10.7</span> <strong>Key Takeaways</strong></h2>
+<section id="key-takeaways" class="level2" data-number="10.10">
+<h2 data-number="10.10" class="anchored" data-anchor-id="key-takeaways"><span class="header-section-number">10.10</span> <strong>Key Takeaways</strong></h2>
 <ol type="1">
 <li><strong>Start simple</strong>: Use a C18 column and isocratic elution for most methods.<br>
 </li>
@@ -432,9 +494,12 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Sample prep matters</strong>: A clean sample = reliable results.</li>
 </ol>
 <hr>
-<p>By mastering method development, you’ll turn HPLC from a black box into a precise tool. Whether testing a new drug or ensuring your morning coffee’s caffeine content, these principles ensure accuracy and confidence in your results. 🔍⚗️</p>
+<section id="conclusion" class="level3" data-number="10.10.1">
+<h3 data-number="10.10.1" class="anchored" data-anchor-id="conclusion"><span class="header-section-number">10.10.1</span> Conclusion</h3>
+<p>Effective sample preparation is essential for achieving accurate and reliable HPLC results. By selecting the appropriate solvent, filtering the sample, and considering the use of a guard column, you can protect your analytical column and ensure the quality of your analysis. Following these guidelines will help you to maintain the performance of your HPLC system and obtain consistent, reproducible results.🔍⚗️</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

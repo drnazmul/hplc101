@@ -17,6 +17,8 @@ In a classic example, paper chromatography separates ink into its colored compon
 
 Chromatography began in 1903, when Russian botanist **Mikhail Tsvet** separated plant pigments using a glass column packed with calcium carbonate (stationary phase) and a solvent (mobile phase). He coined the term *chromatography* (“color writing”) as colorful bands of chlorophyll and carotenoids formed.  
 
+![Tsvet's experiment](images/chrom-1.jpg)
+
 Over decades, scientists refined this concept:  
 - **1940s–1950s**: Paper and thin-layer chromatography (TLC) emerged, enabling simpler separations.  
 - **1960s**: The need for faster, more efficient methods led to **High Performance Liquid Chromatography (HPLC)**. Advances in pumps (to push mobile phase at high pressure) and columns packed with tiny, uniform particles (3–5 µm) dramatically improved speed and precision.  

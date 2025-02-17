@@ -1,0 +1,36 @@
+# Workflow
+ 
+1. **Mobile Phase Preparation**  
+   - Degas solvents to prevent bubbles (e.g., using helium sparging or vacuum filtration).  
+   - Example: A 70:30 water:methanol mixture buffered with 0.1% phosphoric acid for separating acidic compounds.  
+
+2. **Column Equilibration**  
+   - Flush the column with mobile phase until baseline stability is achieved (e.g., 10–15 column volumes).  
+
+3. **Sample Preparation**  
+   - Filter through a 0.22 µm membrane to remove particulates.  
+   - Example: A soil sample is extracted with acetone, filtered, and diluted to avoid column clogging.  
+
+4. **Injection**  
+   - Load 10–20 µL of the sample into the injector loop.  
+
+5. **Separation**  
+   - Compounds interact with the stationary phase based on polarity, size, or charge.  
+   - Example: In reverse-phase HPLC, non-polar caffeine elutes after polar aspartame due to stronger retention on the C18 phase.  
+
+6. **Detection**  
+   - UV-Vis detects absorbance, fluorescence detects emitted light (e.g., amino acids like tryptophan), or mass spectrometry (MS) identifies compounds by mass-to-charge ratio.  
+
+7. **Data Analysis**  
+   - Generate a chromatogram, integrate peaks, and quantify using standards.  
+   - Example: A chromatogram of a herbal supplement shows peaks for curcumin (3.2 min) and piperine (5.8 min), quantified against reference standards.  
+
+---
+
+## **Real-World Example: Soft Drink Analysis**  
+**Objective**: Quantify caffeine and benzoic acid in a cola.  
+1. **Sample Prep**: Dilute the cola 1:10 with water and filter.  
+2. **Column**: C18 reverse-phase column.  
+3. **Mobile Phase**: Gradient from 95% water (acidified with 0.1% formic acid) to 95% methanol over 10 minutes.  
+4. **Detection**: UV at 274 nm (caffeine) and 254 nm (benzoic acid).  
+5. **Results**: Caffeine elutes at 6.5 min (peak area = 12,500 µV·s), corresponding to 35 mg/L; benzoic acid elutes at 4.2 min (peak area = 8,300 µV·s), indicating 150 mg/L.  

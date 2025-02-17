@@ -70,5 +70,11 @@
   },
   "detector.qmd": {
     "detector.html": "02db2168"
+  },
+  "workflow.qmd": {
+    "workflow.html": "53670cfe"
+  },
+  "elution.qmd": {
+    "elution.html": "81f8fb77"
   }
 }

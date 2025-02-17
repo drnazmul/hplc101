@@ -1,1 +1,30 @@
-# Key Parts of an HPLC System
+# Key Components
+
+## **Core Components of an HPLC System**  
+
+1. **Pump**  
+   - **Role**: Delivers the mobile phase (e.g., water, methanol, or acetonitrile) at a precise, constant flow rate (e.g., 1.0 mL/min).  
+   - **Example**: A reciprocating piston pump ensures consistent pressure, critical for reproducible retention times. If the flow rate drifts (e.g., from 1.0 to 0.95 mL/min), retention times shift, risking misidentification of peaks.  
+   - **Types**: Isocratic (constant mobile phase composition) vs. gradient (changing composition over time). For instance, a gradient might start at 80% water/20% methanol and transition to 20% water/80% methanol to elute non-polar compounds.  
+
+2. **Injector**  
+   - **Role**: Introduces the sample into the mobile phase stream.  
+   - **Example**: An autosampler injects 10 µL of a caffeine standard solution, ensuring precision and enabling high-throughput analysis (e.g., 100 samples/day in a quality control lab). Manual injection is cheaper but prone to human error.  
+
+3. **Column**  
+   - **Role**: Contains the stationary phase (e.g., C18 silica particles) where separation occurs.  
+   - **Example**: A reverse-phase C18 column (150 mm long, 4.6 mm diameter, 5 µm particles) separates non-polar compounds like caffeine from polar ones like ascorbic acid. Smaller particles (e.g., 2 µm) improve resolution but require ultra-high-pressure systems (UHPLC).  
+   - **Guard Column**: A smaller pre-column traps particulates and extends the analytical column’s lifespan.  
+
+4. **Detector**  
+   - **Role**: Measures analyte signals as they elute from the column.  
+   - **Example**: A UV-Vis detector set to 274 nm detects caffeine in a soft drink. A photodiode array (PDA) detector captures full UV spectra, helping identify unknown peaks (e.g., distinguishing benzoic acid from sorbic acid).  
+
+5. **Data System**  
+   - **Role**: Converts detector signals into chromatograms and quantifies results.  
+   - **Example**: Software integrates peak areas and compares them to a calibration curve (e.g., caffeine concentrations from 1–100 µg/mL) to calculate sample concentrations.  
+
+## **Why These Components Matter**  
+- **Pump Accuracy**: Ensures consistent retention times for reliable identification.  
+- **Column Selectivity**: Determines separation efficiency (e.g., C18 for small organics, ion-exchange for proteins).  
+- **Detector Sensitivity**: Enables trace analysis (e.g., detecting ppm-level pesticides in water).  

@@ -1,7 +1,8 @@
 # Theoretical Concepts {#sec-theory .unnumbered}
 
-Theoretical Concepts of HPLC
+## Understanding Retention, Resolution, and the Science Behind Separation
 
-Understanding Retention, Resolution, and the Science Behind Separation
+Imagine HPLC as a molecular race: 
+components in a mixture compete to reach the finish line (detector) first. But unlike a simple sprint, this race is shaped by how strongly each component interacts with the column and how fast the mobile phase carries them. 
 
-Imagine HPLC as a molecular race: components in a mixture compete to reach the finish line (detector) first. But unlike a simple sprint, this race is shaped by how strongly each component interacts with the column and how fast the mobile phase carries them. This chapter breaks down the key ideas that govern HPLC separations, using everyday analogies and practical examples.
+This chapter breaks down the key ideas that govern HPLC separations, using everyday analogies and practical examples.

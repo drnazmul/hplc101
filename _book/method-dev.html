@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Method Development in HPLC – HPLC for All</title>
+<title>Method Development – HPLC for All</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,7 +31,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./design.html" rel="next">
-<link href="./grad-iso.html" rel="prev">
+<link href="./elution.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./method-dev.html">Method Development in HPLC</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./method-dev.html">Method Development</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -149,7 +149,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chrom-tech.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Overview of Chromatographic Techniques</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Chromatographic Techniques</span></span></a>
   </div>
 </li>
       </ul>
@@ -157,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="./components.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">HPLC System Components</span></a>
+ <span class="menu-text">Components &amp; Workflow</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -166,13 +166,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./parts.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Key Parts of an HPLC System</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Key Components</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./phases.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Mobile Phase and Stationary Phase</span></span></a>
+  <a href="./workflow.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Workflow</span></span></a>
   </div>
 </li>
       </ul>
@@ -203,7 +203,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="./types.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Types of HPLC</span></a>
+ <span class="menu-text">Separation Modes &amp; Elution Techniques</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -217,7 +217,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./grad-iso.html" class="sidebar-item-text sidebar-link">
+  <a href="./elution.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Gradient vs.&nbsp;Isocratic Elution</span></span></a>
   </div>
 </li>
@@ -226,7 +226,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="./method-dev.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Method Development in HPLC</span></a>
+ <span class="menu-text">Method Development</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -274,21 +274,15 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
-   
-  <ul>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><strong>Introduction</strong></a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span id="sec-method-dev" class="quarto-section-identifier">Method Development in HPLC</span></h1>
+<h1 class="title"><span id="sec-method-dev" class="quarto-section-identifier">Method Development</span></h1>
 </div>
 
 
@@ -305,12 +299,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><em>Crafting a Reliable HPLC Method – From Column Choice to Sample Prep</em></p>
-<hr>
-<section id="introduction" class="level3">
-<h3 class="anchored" data-anchor-id="introduction"><strong>Introduction</strong></h3>
 <p>Developing an HPLC method is like solving a puzzle: you need the right pieces (column, mobile phase, sample prep) to fit together for clear, reproducible results. This chapter walks you through designing a method step-by-step, using practical examples to simplify complex decisions.</p>
-<hr>
 <p><strong>1. Sample Preparation</strong><br>
 - <strong>Crushing &amp; Dissolving</strong>: Grind the tablet into a fine powder using a mortar and pestle. Weigh 50 mg of powder and dissolve it in 10 mL of a solvent blend (e.g., 70% water, 30% methanol).<br>
 - <em>Why?</em> Methanol helps dissolve organic compounds like caffeine and aspirin, while water mimics the HPLC mobile phase to prevent precipitation.<br>
@@ -367,7 +356,6 @@ Think of the C18 column as a “chemical race track.” Polar compounds (aspirin
 From filtering samples to interpreting chromatograms, HPLC combines meticulous preparation with cutting-edge tech. Next time you take a painkiller, remember: a process like this likely ensured its quality! 💊🔬</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -789,7 +777,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./grad-iso.html" class="pagination-link" aria-label="Gradient vs. Isocratic Elution">
+      <a href="./elution.html" class="pagination-link" aria-label="Gradient vs. Isocratic Elution">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Gradient vs.&nbsp;Isocratic Elution</span></span>
       </a>          
   </div>

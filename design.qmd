@@ -1,8 +1,6 @@
 # Designing an HPLC Method
 
-### **Part 1: Designing an HPLC Method**  
-
-#### **1. Column Selection**  
+## Column Selection
 The column is the heart of HPLC. Choose based on your sample’s chemistry:  
 - **Reversed-Phase (C18)**: Default for most organic compounds (e.g., drugs, pesticides).  
 - **HILIC (Hydrophilic Interaction)**: For very polar compounds (e.g., sugars, amino acids).  
@@ -16,7 +14,7 @@ The column is the heart of HPLC. Choose based on your sample’s chemistry:
 
 ---
 
-#### **2. Mobile Phase Optimization**  
+## Mobile Phase Optimization
 The mobile phase’s composition controls separation. Key factors:  
 - **Organic Modifier**: Methanol (cheap) or acetonitrile (sharper peaks).  
 - **pH**: Adjust with buffers (e.g., phosphate, acetate) for ionizable compounds.  
@@ -29,7 +27,7 @@ The mobile phase’s composition controls separation. Key factors:
 
 ---
 
-#### **3. pH Adjustments**  
+## pH Adjustments
 - **Acidic Compounds** (e.g., aspirin): Lower pH (2–3) keeps them neutral, improving retention on C18.  
 - **Basic Compounds** (e.g., nicotine): Higher pH (7–8) prevents ionization, enhancing interaction with the column.  
 
@@ -38,7 +36,7 @@ The mobile phase’s composition controls separation. Key factors:
 
 ---
 
-#### **4. Balancing Speed, Resolution, and Sensitivity**  
+## Balancing Speed, Resolution, and Sensitivity
 - **Speed**: Increase flow rate or use shorter columns (but risk lower resolution).  
 - **Resolution**: Use smaller particles or gradient elution (but takes longer).  
 - **Sensitivity**: Optimize detector settings (e.g., UV wavelength) or concentrate the sample.  

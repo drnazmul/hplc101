@@ -1,6 +1,6 @@
 # Factors Affecting Separation
 
-#### **1. Plate Theory (Simplified)**  
+## ** Plate Theory (Simplified)**  
 - **The Big Idea**: A column is divided into imaginary “plates” where compounds equilibrate between the mobile and stationary phases.  
 - **How It Works**:  
   - At each plate, a compound either sticks to the stationary phase or moves with the mobile phase.  
@@ -10,7 +10,7 @@
 
 ---
 
-#### **2. The Van Deemter Equation (Conceptual)**  
+## ** The Van Deemter Equation (Conceptual)**  
 - **What it is**: A formula that balances three factors affecting efficiency:  
   1. **A-term (Eddy diffusion)**: Uneven flow paths in the column.  
   2. **B-term (Longitudinal diffusion)**: Compounds spreading out over time.  
@@ -25,7 +25,7 @@
 
 ---
 
-#### **3. Impact of Flow Rate**  
+## ** Impact of Flow Rate**  
 - **Faster Flow Rate**:  
   - *Pros*: Shorter run times.  
   - *Cons*: Lower efficiency (peaks broaden).  
@@ -38,7 +38,7 @@
 
 ---
 
-#### **4. Temperature**  
+## ** Temperature**  
 - **Warmer Columns**:  
   - Reduce mobile phase viscosity (lets it flow faster).  
   - Speed up equilibration between phases (improves efficiency).  
@@ -47,7 +47,7 @@
 
 ---
 
-#### **5. Particle Size**  
+## ** Particle Size**  
 - **Smaller Particles** (e.g., 2 µm vs. 5 µm):  
   - *Pros*: More plates, better efficiency.  
   - *Cons*: Require higher pressure (risk of clogging).  
@@ -56,7 +56,8 @@
 
 ---
 
-### **Putting It All Together: A Real-World Scenario**  
+## **Putting It All Together: A Real-World Scenario**
+
 **Goal**: Separate a mixture of Vitamin C (polar) and Vitamin E (non-polar).  
 1. **Column Choice**: C18 (non-polar) for reversed-phase separation.  
 2. **Mobile Phase**: Start with 90% water (polar) to hold Vitamin E on the column. Gradually add methanol to elute it.  
@@ -76,8 +77,4 @@
 - **Selectivity** = How differently compounds behave.  
 
 Adjusting flow rate, temperature, and particle size fine-tunes these factors, much like tuning a musical instrument.  
-
----
-
-**Key Takeaway**:  
-HPLC isn’t magic—it’s a science of balancing forces. Understanding these concepts helps you troubleshoot issues, optimize methods, and turn chaotic mixtures into clear, actionable data.  
+ 

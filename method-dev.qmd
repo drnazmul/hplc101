@@ -1,13 +1,9 @@
-# Method Development in HPLC {#sec-method-dev .unnumbered}
+# Method Development {#sec-method-dev .unnumbered}
    
-*Crafting a Reliable HPLC Method – From Column Choice to Sample Prep*  
-
----
-
-### **Introduction**  
+ 
 Developing an HPLC method is like solving a puzzle: you need the right pieces (column, mobile phase, sample prep) to fit together for clear, reproducible results. This chapter walks you through designing a method step-by-step, using practical examples to simplify complex decisions.  
 
----
+ 
 
 **1. Sample Preparation**  
 - **Crushing & Dissolving**: Grind the tablet into a fine powder using a mortar and pestle. Weigh 50 mg of powder and dissolve it in 10 mL of a solvent blend (e.g., 70% water, 30% methanol).  

@@ -149,7 +149,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chrom-tech.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Overview of Chromatographic Techniques</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Chromatographic Techniques</span></span></a>
   </div>
 </li>
       </ul>
@@ -157,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="./components.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">HPLC System Components</span></a>
+ <span class="menu-text">Components &amp; Workflow</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -166,13 +166,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./parts.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Key Parts of an HPLC System</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Key Components</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./phases.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Mobile Phase and Stationary Phase</span></span></a>
+  <a href="./workflow.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Workflow</span></span></a>
   </div>
 </li>
       </ul>
@@ -203,7 +203,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="./types.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Types of HPLC</span></a>
+ <span class="menu-text">Separation Modes &amp; Elution Techniques</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -217,7 +217,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./grad-iso.html" class="sidebar-item-text sidebar-link">
+  <a href="./elution.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Gradient vs.&nbsp;Isocratic Elution</span></span></a>
   </div>
 </li>
@@ -226,7 +226,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="./method-dev.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Method Development in HPLC</span></a>
+ <span class="menu-text">Method Development</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -279,8 +279,15 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#putting-it-all-together-a-real-world-scenario" id="toc-putting-it-all-together-a-real-world-scenario" class="nav-link active" data-scroll-target="#putting-it-all-together-a-real-world-scenario"><span class="header-section-number">6.0.1</span> <strong>Putting It All Together: A Real-World Scenario</strong></a></li>
-  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary"><span class="header-section-number">6.0.2</span> <strong>Summary</strong></a></li>
+  <li><a href="#plate-theory-simplified" id="toc-plate-theory-simplified" class="nav-link active" data-scroll-target="#plate-theory-simplified"><span class="header-section-number">6.1</span> ** Plate Theory (Simplified)**</a></li>
+  <li><a href="#the-van-deemter-equation-conceptual" id="toc-the-van-deemter-equation-conceptual" class="nav-link" data-scroll-target="#the-van-deemter-equation-conceptual"><span class="header-section-number">6.2</span> ** The Van Deemter Equation (Conceptual)**</a></li>
+  <li><a href="#impact-of-flow-rate" id="toc-impact-of-flow-rate" class="nav-link" data-scroll-target="#impact-of-flow-rate"><span class="header-section-number">6.3</span> ** Impact of Flow Rate**</a></li>
+  <li><a href="#temperature" id="toc-temperature" class="nav-link" data-scroll-target="#temperature"><span class="header-section-number">6.4</span> ** Temperature**</a></li>
+  <li><a href="#particle-size" id="toc-particle-size" class="nav-link" data-scroll-target="#particle-size"><span class="header-section-number">6.5</span> ** Particle Size**</a></li>
+  <li><a href="#putting-it-all-together-a-real-world-scenario" id="toc-putting-it-all-together-a-real-world-scenario" class="nav-link" data-scroll-target="#putting-it-all-together-a-real-world-scenario"><span class="header-section-number">6.6</span> <strong>Putting It All Together: A Real-World Scenario</strong></a>
+  <ul class="collapse">
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary"><span class="header-section-number">6.6.1</span> <strong>Summary</strong></a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -306,8 +313,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="plate-theory-simplified" class="level4" data-number="6.0.0.1">
-<h4 data-number="6.0.0.1" class="anchored" data-anchor-id="plate-theory-simplified"><span class="header-section-number">6.0.0.1</span> <strong>1. Plate Theory (Simplified)</strong></h4>
+<section id="plate-theory-simplified" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="plate-theory-simplified"><span class="header-section-number">6.1</span> ** Plate Theory (Simplified)**</h2>
 <ul>
 <li><strong>The Big Idea</strong>: A column is divided into imaginary “plates” where compounds equilibrate between the mobile and stationary phases.<br>
 </li>
@@ -325,8 +332,8 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <hr>
 </section>
-<section id="the-van-deemter-equation-conceptual" class="level4" data-number="6.0.0.2">
-<h4 data-number="6.0.0.2" class="anchored" data-anchor-id="the-van-deemter-equation-conceptual"><span class="header-section-number">6.0.0.2</span> <strong>2. The Van Deemter Equation (Conceptual)</strong></h4>
+<section id="the-van-deemter-equation-conceptual" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="the-van-deemter-equation-conceptual"><span class="header-section-number">6.2</span> ** The Van Deemter Equation (Conceptual)**</h2>
 <ul>
 <li><strong>What it is</strong>: A formula that balances three factors affecting efficiency:
 <ol type="1">
@@ -355,8 +362,8 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <hr>
 </section>
-<section id="impact-of-flow-rate" class="level4" data-number="6.0.0.3">
-<h4 data-number="6.0.0.3" class="anchored" data-anchor-id="impact-of-flow-rate"><span class="header-section-number">6.0.0.3</span> <strong>3. Impact of Flow Rate</strong></h4>
+<section id="impact-of-flow-rate" class="level2" data-number="6.3">
+<h2 data-number="6.3" class="anchored" data-anchor-id="impact-of-flow-rate"><span class="header-section-number">6.3</span> ** Impact of Flow Rate**</h2>
 <ul>
 <li><strong>Faster Flow Rate</strong>:
 <ul>
@@ -381,8 +388,8 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <hr>
 </section>
-<section id="temperature" class="level4" data-number="6.0.0.4">
-<h4 data-number="6.0.0.4" class="anchored" data-anchor-id="temperature"><span class="header-section-number">6.0.0.4</span> <strong>4. Temperature</strong></h4>
+<section id="temperature" class="level2" data-number="6.4">
+<h2 data-number="6.4" class="anchored" data-anchor-id="temperature"><span class="header-section-number">6.4</span> ** Temperature**</h2>
 <ul>
 <li><strong>Warmer Columns</strong>:
 <ul>
@@ -398,8 +405,8 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <hr>
 </section>
-<section id="particle-size" class="level4" data-number="6.0.0.5">
-<h4 data-number="6.0.0.5" class="anchored" data-anchor-id="particle-size"><span class="header-section-number">6.0.0.5</span> <strong>5. Particle Size</strong></h4>
+<section id="particle-size" class="level2" data-number="6.5">
+<h2 data-number="6.5" class="anchored" data-anchor-id="particle-size"><span class="header-section-number">6.5</span> ** Particle Size**</h2>
 <ul>
 <li><strong>Smaller Particles</strong> (e.g., 2 µm vs.&nbsp;5 µm):
 <ul>
@@ -415,8 +422,8 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <hr>
 </section>
-<section id="putting-it-all-together-a-real-world-scenario" class="level3" data-number="6.0.1">
-<h3 data-number="6.0.1" class="anchored" data-anchor-id="putting-it-all-together-a-real-world-scenario"><span class="header-section-number">6.0.1</span> <strong>Putting It All Together: A Real-World Scenario</strong></h3>
+<section id="putting-it-all-together-a-real-world-scenario" class="level2" data-number="6.6">
+<h2 data-number="6.6" class="anchored" data-anchor-id="putting-it-all-together-a-real-world-scenario"><span class="header-section-number">6.6</span> <strong>Putting It All Together: A Real-World Scenario</strong></h2>
 <p><strong>Goal</strong>: Separate a mixture of Vitamin C (polar) and Vitamin E (non-polar).<br>
 1. <strong>Column Choice</strong>: C18 (non-polar) for reversed-phase separation.<br>
 2. <strong>Mobile Phase</strong>: Start with 90% water (polar) to hold Vitamin E on the column. Gradually add methanol to elute it.<br>
@@ -426,9 +433,8 @@ ul.task-list li input[type="checkbox"] {
 - Vitamin C (polar) elutes first (retention time = 3 min).<br>
 - Vitamin E (non-polar) elutes later (retention time = 10 min) with excellent resolution (R = 2.5).</p>
 <hr>
-</section>
-<section id="summary" class="level3" data-number="6.0.2">
-<h3 data-number="6.0.2" class="anchored" data-anchor-id="summary"><span class="header-section-number">6.0.2</span> <strong>Summary</strong></h3>
+<section id="summary" class="level3" data-number="6.6.1">
+<h3 data-number="6.6.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">6.6.1</span> <strong>Summary</strong></h3>
 <ul>
 <li><strong>Retention Time</strong> = ID tag for compounds.<br>
 </li>
@@ -439,11 +445,9 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Selectivity</strong> = How differently compounds behave.</li>
 </ul>
 <p>Adjusting flow rate, temperature, and particle size fine-tunes these factors, much like tuning a musical instrument.</p>
-<hr>
-<p><strong>Key Takeaway</strong>:<br>
-HPLC isn’t magic—it’s a science of balancing forces. Understanding these concepts helps you troubleshoot issues, optimize methods, and turn chaotic mixtures into clear, actionable data.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -871,8 +875,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./types.html" class="pagination-link" aria-label="Types of HPLC">
-        <span class="nav-page-text">Types of HPLC</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./types.html" class="pagination-link" aria-label="Separation Modes &amp; Elution Techniques">
+        <span class="nav-page-text">Separation Modes &amp; Elution Techniques</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

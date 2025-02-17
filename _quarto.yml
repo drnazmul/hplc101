@@ -17,7 +17,7 @@ book:
     - part: components.qmd
       chapters:
         - parts.qmd
-        - phases.qmd
+        - workflow.qmd
     - part: theory.qmd
       chapters: 
         - terms.qmd
@@ -25,7 +25,7 @@ book:
     - part: types.qmd
       chapters: 
         - sep-mode.qmd
-        - grad-iso.qmd
+        - elution.qmd
     - part: method-dev.qmd
       chapters: 
         - design.qmd

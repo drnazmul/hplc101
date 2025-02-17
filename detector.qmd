@@ -4,15 +4,15 @@
 High-Performance Liquid Chromatography (HPLC) detectors act as the "eyes" of the system, converting separated compounds into measurable signals. This chapter explores 8 essential detector types, their strengths, weaknesses, and real-world applications - critical knowledge for selecting the right tool in analytical workflows.
 
 ## UV-Vis Detectors  
-**How they work**: Measure light absorption between 190-900 nm using chromophores (light-absorbing molecular structures)[1][3].  
+**How they work**: Measure light absorption between 190-900 nm using chromophores (light-absorbing molecular structures).  
 
 **Types**:  
-- **Fixed wavelength**: Simple design (254 nm mercury lamps) for routine drug analysis[1]  
-- **Variable wavelength**: Adjustable λ (190-900 nm) for method development labs[1]  
-- **Diode Array (DAD)**: Simultaneously captures full UV spectrum, ideal for peak purity checks[1][2]  
+- **Fixed wavelength**: Simple design (254 nm mercury lamps) for routine drug analysis
+- **Variable wavelength**: Adjustable λ (190-900 nm) for method development labs
+- **Diode Array (DAD)**: Simultaneously captures full UV spectrum, ideal for peak purity checks
 
 *Advantages*:  
-- Cost-effective for 90% of small molecules with chromophores[3]  
+- Cost-effective for 90% of small molecules with chromophores
 - Compatible with gradient elution  
 
 *Limitations*:  
@@ -26,14 +26,14 @@ High-Performance Liquid Chromatography (HPLC) detectors act as the "eyes" of the
 ---
 
 ## Fluorescence Detectors (FLD)  
-**Mechanism**: Excites compounds at specific λ, measures emitted light[1][2].  
+**Mechanism**: Excites compounds at specific λ, measures emitted light.  
 
 *Advantages*:  
-- 1000x more sensitive than UV for fluorescing agents[1]  
+- 1000x more sensitive than UV for fluorescing agents  
 - Selective - reduces matrix interference  
 
 *Limitations*:  
-- Requires native fluorescence or derivatization (e.g., dansyl chloride for amines)[1]  
+- Requires native fluorescence or derivatization (e.g., dansyl chloride for amines)
 - Limited to ~15% of analytes  
 
 *Applications*:  
@@ -43,7 +43,7 @@ High-Performance Liquid Chromatography (HPLC) detectors act as the "eyes" of the
 ---
 
 ## Refractive Index (RI) Detectors  
-**Principle**: Measures mobile phase refractive index changes[3].  
+**Principle**: Measures mobile phase refractive index changes.  
 
 *Advantages*:  
 - "Universal" - detects any compound  
@@ -61,7 +61,7 @@ High-Performance Liquid Chromatography (HPLC) detectors act as the "eyes" of the
 ---
 
 ## Evaporative Light Scattering (ELSD)  
-**Operation**: Nebulizes eluent, detects scattered light from non-volatile particles[3].  
+**Operation**: Nebulizes eluent, detects scattered light from non-volatile particles.  
 
 *Advantages*:  
 - Works with gradients  
@@ -78,7 +78,7 @@ High-Performance Liquid Chromatography (HPLC) detectors act as the "eyes" of the
 ---
 
 ## Conductivity Detectors  
-**Function**: Measures ionic conductivity changes[3].  
+**Function**: Measures ionic conductivity changes.  
 
 *Advantages*:  
 - Ideal for ions (Na⁺, NO₃⁻)  
@@ -95,7 +95,7 @@ High-Performance Liquid Chromatography (HPLC) detectors act as the "eyes" of the
 ---
 
 ## Mass Spectrometers (LC-MS)  
-**Technology**: Ionizes molecules, separates by mass/charge ratio[1][3].  
+**Technology**: Ionizes molecules, separates by mass/charge ratio.  
 
 *Advantages*:  
 - Provides structural ID  
@@ -141,21 +141,4 @@ High-Performance Liquid Chromatography (HPLC) detectors act as the "eyes" of the
 
 This detector "toolbox" approach empowers analysts to match detection strategy with analyte properties and study goals. Subsequent chapters will explore hyphenated techniques like LC-MS/MS in depth.
 
-Citations:
-[1] https://juniperpublishers.com/omcij/pdf/OMCIJ.MS.ID.555700.pdf
-[2] https://scioninstruments.com/us/blog/the-different-types-of-hplc-detectors/
-[3] https://www.shimadzu.com/an/service-support/technical-support/liquid-chromatography/overview/detector.html
-[4] https://www.youtube.com/watch?v=AsSE4AsLLnU
-[5] https://www.shimadzu.eu/service-support/technical-support/liquid-chromatography/overview/detector.html
-[6] https://www.thermofisher.com/ca/en/home/industrial/chromatography/chromatography-learning-center/liquid-chromatography-information/hplc-system-components/how-hplc-detectors-work.html
-[7] https://www.biocompare.com/7327-Chromatography-HPLC-Detectors/
-[8] https://www.tandfonline.com/doi/full/10.1080/10826076.2010.484356
-[9] https://pharmasciences.in/types-of-hplc-detectors/
-[10] https://www.agilent.com/cs/library/eseminars/public/An-Introduction-to-HPLC-Instrumentation-05112020.pdf
-[11] https://www.sigmaaldrich.com/IN/en/search/hplc-detectors-list?focus=documents&page=1&perpage=30&sort=relevance&term=hplc+detectors+list&type=site_content
-[12] https://www.thermofisher.com/blog/analyteguru/which-hplc-detector-fits-your-analytes-best/
-[13] https://www.pharmaguideline.com/2016/01/different-types-of-hplc-detectors.html
-[14] https://www.shimadzu.com/an/service-support/technical-support/analysis-basics/basic/overview_of_hplc_detectors.html
-[15] https://www.shimadzu.com/es-es/an/service-support/technical-support/liquid-chromatography/overview/detector.html
-[16] https://b-ac.co.uk/types-of-detectors-used-in-hplc/
-[17] https://www.lcservicesltd.co.uk/types-of-detectors-used-in-gas-chromatography-and-hplc/
+ 
