@@ -111,7 +111,5 @@ A guard column is a short column placed before the analytical column to protect 
 2. **Adjust one variable at a time** (e.g., pH, organic %) to troubleshoot.  
 3. **Sample prep matters**: A clean sample = reliable results.  
 
----  
-### Conclusion
 
 Effective sample preparation is essential for achieving accurate and reliable HPLC results. By selecting the appropriate solvent, filtering the sample, and considering the use of a guard column, you can protect your analytical column and ensure the quality of your analysis. Following these guidelines will help you to maintain the performance of your HPLC system and obtain consistent, reproducible results.🔍⚗️

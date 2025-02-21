@@ -34,6 +34,9 @@ book:
       chapters: 
         - column.qmd
         - detector.qmd
+    - part: troubleshooting
+      chapters: 
+        - troubleshooting.qmd
 
 
 

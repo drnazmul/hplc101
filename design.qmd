@@ -41,12 +41,11 @@ The mobile phase’s composition controls separation. Key factors:
 - **Resolution**: Use smaller particles or gradient elution (but takes longer).  
 - **Sensitivity**: Optimize detector settings (e.g., UV wavelength) or concentrate the sample.  
 
-**Trade-Off Table**:  
+**Trade-Off Table**  
+
+
 | Goal               | Action                          | Compromise                        |  
 |---------------------|---------------------------------|-----------------------------------|  
 | **Faster Run**      | Use 3 µm particles             | Higher pressure, shorter column life |  
 | **Better Resolution** | Reduce flow rate              | Longer run time                   |  
 | **Higher Sensitivity** | Inject more sample          | Risk of column overload           |  
-
----
-

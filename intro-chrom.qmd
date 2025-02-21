@@ -18,3 +18,25 @@ Whether you’re a student, a lab technician, or simply curious about how scienc
 Chromatography is the science of separation, and HPLC is its high-tech superhero—solving mysteries in mixtures, one molecule at a time.
 
 
+What is Chromatography?
+Basic principles
+mobile phase, stationary phase, separation mechanism
+A Brief History and Evolution to HPLC
+
+Chromatographic Techniques
+Paper, TLC, GC, HPLC
+
+Components & Workflow
+
+Theoretical Concepts
+Basic Terms
+Factors Affecting Separation
+
+Separation Modes & Elution Techniques
+
+Method Development
+Sample Preparation
+
+Instrumentation Deep Dive
+Column Chemistry
+Detectors
